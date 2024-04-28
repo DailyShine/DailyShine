@@ -1,0 +1,496 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@media screen and (max-width: 600px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        scroll-behavior: smooth;
+    }
+    .navbar{
+        display: none;
+    }
+    .header{
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: transparent;   
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+      }
+    .social{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+      
+    .fa:hover {
+          opacity: 0.7;
+    }
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+    .menu-btn {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+        background-color: transparent;
+        border: none;
+        outline: none;
+      }
+      
+      .line {
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        margin: 2px 0;
+        transition: all 0.3s ease;
+      }
+      
+      .menu-btn.open .line:nth-child(1) {
+        transform: rotate(45deg) translate(1px, 1px);
+        margin: 0;
+      }
+      
+      .menu-btn.open .line:nth-child(2) {
+        transform: rotate(-45deg) translate(1px, -1px);
+        margin: 0;
+      }
+      
+      .menu-btn.open .line:nth-child(3) {
+        display: none;
+      }
+      .menu h1{
+        color: black;
+        text-align: center;
+        margin-top: -12%;
+      }
+      .menu {
+        position: fixed;
+        top: 0;
+        right: -300px;
+        background-color: #fff;
+        width: 250px;
+        height: 100%;
+        padding-top: 60px;
+        transition: all 0.3s ease;
+        z-index: 999;
+      }
+      
+      .menu ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      .menu ul li {
+        padding: 15px 20px;
+        border-bottom: 1px solid #ccc;
+      }
+      
+      .menu ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 16px;
+      }
+      
+      .menu-btn.open + .menu {
+        right: 0;
+      }
+
+    .FAQ{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(FAQ.png );
+        height: 65vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .FAQ-text {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+    .accordion{
+        max-width: 80%;
+        padding-right: 10%;
+    }
+    .accordion li{
+        list-style: none;
+        width: 100%;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 8px;
+        background: #e3edf7;
+        box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    }
+    .accordion li label{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    label::before{
+        content: '+';
+        margin-right: 10px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    input[type="radio"]{
+        display: none;
+    }
+    .accordion .content{
+        color: #555;
+        padding: 0 10px;
+        line-height: 26px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height  0.5s, padding 0.5s;
+    }
+    .accordion [type="radio"]:checked + label + .content{
+        max-height: 2000px;
+    }
+    .accordion [type="radio"]:checked + label::before{
+        content: "-";
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        scroll-behavior: smooth;
+    }
+    .social{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+      
+    .fa:hover {
+          opacity: 0.7;
+    }
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+      }
+    .navbar{
+        display: none;
+    }
+    .header{
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: transparent;   
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .menu-btn {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+        background-color: transparent;
+        border: none;
+        outline: none;
+      }
+      
+      .line {
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        margin: 2px 0;
+        transition: all 0.3s ease;
+      }
+      
+      .menu-btn.open .line:nth-child(1) {
+        transform: rotate(45deg) translate(1px, 1px);
+        margin: 0;
+      }
+      
+      .menu-btn.open .line:nth-child(2) {
+        transform: rotate(-45deg) translate(1px, -1px);
+        margin: 0;
+      }
+      
+      .menu-btn.open .line:nth-child(3) {
+        display: none;
+      }
+      
+      .menu {
+        position: fixed;
+        top: 0;
+        right: -300px;
+        background-color: #fff;
+        width: 250px;
+        height: 100%;
+        padding-top: 60px;
+        transition: all 0.3s ease;
+        z-index: 999;
+      }
+      .menu h1{
+        color: black;
+        text-align: center;
+        margin-top: -12%;
+      }
+      .menu ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      .menu ul li {
+        padding: 15px 20px;
+        border-bottom: 1px solid #ccc;
+      }
+      
+      .menu ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 16px;
+      }
+      
+      .menu-btn.open + .menu {
+        right: 0;
+      }
+
+    .FAQ{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(FAQ.png );
+        height: 65vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .FAQ-text {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+    .accordion{
+        max-width: 80%;
+        padding-right: 10%;
+    }
+    .accordion li{
+        list-style: none;
+        width: 100%;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 8px;
+        background: #e3edf7;
+        box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    }
+    .accordion li label{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    label::before{
+        content: '+';
+        margin-right: 10px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    input[type="radio"]{
+        display: none;
+    }
+    .accordion .content{
+        color: #555;
+        padding: 0 10px;
+        line-height: 26px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height  0.5s, padding 0.5s;
+    }
+    .accordion [type="radio"]:checked + label + .content{
+        max-height: 2000px;
+    }
+    .accordion [type="radio"]:checked + label::before{
+        content: "-";
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 1025px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+    body{
+        background: #e3edf7;
+    }
+    .header{
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        background: transparent;   
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+    .nav-logo{
+        font-size: 32px;
+        color: lightgray;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    .navbar a{
+        position: relative;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 40px;
+    }
+    .navbar a::before{
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition: .3s;
+    }
+    .navbar a:hover::before{
+        width: 100%;
+    }
+    .FAQ{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(FAQ.png);
+        height: 65vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .FAQ-text {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+    .FAQ-text h1{
+        font-size: 70px;
+    }
+    .accordion{
+        margin: 60px auto;  
+        width: 600px;
+    }
+    .accordion li{
+        list-style: none;
+        width: 100%;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 8px;
+        background: #e3edf7;
+        box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    }
+    .accordion li label{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    label::before{
+        content: '+';
+        margin-right: 10px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    input[type="radio"]{
+        display: none;
+    }
+    .accordion .content{
+        color: #555;
+        padding: 0 10px;
+        line-height: 26px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height  0.5s, padding 0.5s;
+    }
+    .accordion [type="radio"]:checked + label + .content{
+        max-height: 400px;
+        padding: 10px 10px 20px;
+    }
+    .accordion [type="radio"]:checked + label::before{
+        content: "-";
+    }
+    .menu-btn{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+}

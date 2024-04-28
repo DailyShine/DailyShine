@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./PriceWebsite.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cennik - Daily Shine</title>
+</head>
+<body onload="showDescription('CarOne')">
+    <div class="pricemain">
+        <header class="header">
+            <a href="#" class="nav-logo"><img src="Logo-removebg-preview.png" alt="Nasze logo." width="80" height="80"></a>
+
+
+            <nav class="navbar">
+                <a href="./">Strona Główna</a>
+                <a href="./ServiceWebsite.html">Oferta</a>
+                <a href="./FAQWebsite.html">FAQ</a>
+                <a href="./https://www.facebook.com/profile.php?id=61558784101058">Facebook</a>
+            </nav>
+
+            <div class="menu-btn">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="menu">
+                <h1>Menu</h1>
+                <ul>
+                <li><a href="./">Strona Główna</a></li>
+                <li><a href="./ServiceWebsite.html">Oferta</a></li>
+                <li><a href="./FAQWebsite.html">FAQ</a></li>
+                </ul>
+                <div class="social"><a href="https://www.facebook.com/profile.php?id=61558784101058" class="fa fa-facebook"></a></div>
+            </nav>
+        </header>
+        <div class="pricetext">
+            <h1>Cennik</h1>
+            <hr>
+            <h4>Poniżej możesz zapoznać się z cenami naszych usług.</h4>
+        </div>
+    </div>
+    <hr>
+    <div class="price">
+        <div class="options">
+            <span class="option" onclick="showDescription('CarOne')" data-car="CarOne">Micro</span>
+            <span class="option" onclick="showDescription('CarTwo')" data-car="CarTwo">Siedan</span>
+            <span class="option" onclick="showDescription('CarThree')" data-car="CarThree">Kombi</span>
+            <span class="option" onclick="showDescription('CarFour')" data-car="CarFour">SUV</span>
+            <span class="option" onclick="showDescription('CarFive')" data-car="CarFive">VAN</span>
+        </div>
+        <hr>
+        <div class="cardescription">
+            <div id="CarOne" class="description">
+                <ul class="accordion">
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceOne">
+                        <label for="CarOnePriceOne">Mycie podwozia: Wycena indywidualna</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego podwozia. Korzystamy z aplikacji piany aktywnej która skutecznie usuwa brud i zanieczyszczenia z powierzchni podwozia. Dodatkowo, myjemy nadkola,felgi oraz dokładnie płuczemy podwozie czystą wodą.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceTwo">
+                        <label for="CarOnePriceTwo">Mycie zewnętrzne samochodu ciężarowego pow. 3.5T do 6.5T</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego samochodu. 
+                            Korzystamy z aplikacji piany aktywnej, która skutecznie usuwa brud i zanieczyszczenia z powierzchni. 
+                            Dodatkowo, myjemy nadkola, felgi oraz dokładnie płuczemy pojazd czystą wodą.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceThree">
+                        <label for="CarOnePriceThree">Mycie zewnątrz  80zł</label>
+                        <div class="content">
+                            Mycie zewnątrz zaczynamy od aplikacji piany aktywnej, która pomaga usunąć brud i zanieczyszczenia z powierzchni lakieru.
+                            Następnie dokładnie myjemy nadkola, aby pozbyć się brudu i pyłu, który może gromadzić się w tych trudno dostępnych miejscach. 
+                            Kolejnym krokiem jest mycie felg, aby usunąć z nich nagromadzony brud i osady.Do mycia samochodu wykorzystujemy szampon kwaśny i gąbke 
+                            , co pozwala na dokładne i skuteczne usunięcie brudu.
+                            Następnie dokładnie płuczemy pojazd czystą wodą i 
+                            nanosimy hydrowosk, aby zapewnić dodatkową ochronę lakieru. Po nałożeniu hydrowosku, które osuszamy pojazd przy użyciu delikatnych ręczników z mikrofibry, 
+                            aby zapobiec powstawaniu zacieków i zarysowań. Nie zapominamy również o wnękach drzwiowych i klapy bagażnika, które wycieramy, aby zapobiec powstawaniu rdzy 
+                            i korozji. Na koniec aplikujemy dressing na opony, aby zapewnić im elegancki i lśniący wygląd. Ostatnim etapem jest mycie szyb(ze strony zewnętrznej), 
+                            aby zapewnić im czystość i klarowność, dzięki czemu będziesz miał lepszą widoczność podczas jazdy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceFour">
+                        <label for="CarOnePriceFour">Sprzątanie środka: 80zł</label>
+                        <div class="content">
+                            Pierwszym etapem jest dokładne odkurzenie wnętrza, w tym siedzeń, podłogi, deski rozdzielczej i innych trudno dostępnych miejsc, 
+                            aby pozbyć się kurzu, brudu i innych zanieczyszczeń. Następnie przystępujemy do wycierania pyłu na plastiku wewnętrznym. 
+                            Kolejnym etapem jest mycie szyb(ze strony wewnętrznej), aby zapewnić im idealną czystość i przejrzystość. 
+                            Wykorzystujemy specjalne środki czyszczące, które pozwalają nam na usunięcie wszelkich zabrudzeń i zmatowień, które mogą wpływać 
+                            na jakość widoczności podczas jazdy. Na koniec, czyszczymy dywaniki gumowe lub odkurzamy dywaniki materiałowe, które są często narażone 
+                            na zabrudzenia i zanieczyszczenia z butów.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceFive">
+                        <label for="CarOnePriceFive">Sprzątanie Komplekt: 140zł</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego samochodu. 
+                            Korzystamy z aplikacji piany aktywnej, która skutecznie usuwa brud i zanieczyszczenia z powierzchni lakieru. 
+                            Dodatkowo, myjemy nadkola i wnęki drzwiowe, felgi. Do mycia samochodu wykorzystujemy szampon kwaśny i gąbke, co pozwala na dokładne i skuteczne usunięcie brudu
+                            .Po tym etapie dokładnie płuczemy samochód czystą wodą, aby pozbyć się resztek piany i brudu.Po
+                            dokładnym umyciu, następnie nanosimy hydrowosk, aby zapewnić ochronę lakieru. Przy zastosowaniu
+                            delikatnych ręczników z mikrofibry oraz sprężonego powietrza, dokładnie osuszamy pojazd i wnęki drzwiowe oraz klapy bagażnika. 
+                            Następnie aplikujemy dressing na opony oraz odkurzamy wnętrze samochodu, dbając jednocześnie o czyszczenie i pielęgnację plastików 
+                            wewnętrznych przy użyciu dedykowanych kosmetyków. Nie zapominamy również o czyszczeniu szyb oraz dywaników gumowych lub odkurzamy dywaniki materiałowe, 
+                            aby Twój samochód był czysty i zadbane we wszystkich szczegółach. Nasza usługa oferuje kompleksowe czyszczenie Twojego pojazdu, abyś mógł
+                            cieszyć się nieskazitelnym wyglądem swojego samochodu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceSix">
+                        <label for="CarOnePriceSix">Mycie detlingowe zewnątrz: 120zł</label>
+                        <div class="content">
+                            Mycie detlingowe zaczynamy z mycia felg oraz opon, aby usunąć z nich nagromadzony brud i osady, 
+                            wykorzystujemy do tego środki chemiczne. Po tym etapie dokładnie płuczemy samochód czystą wodą, aby 
+                            pozbyć się resztek szamponu i brudu. Kolejnym krokiem zaczynamy od aplikacji piany aktywnej o neutralnym pH, 
+                            która pomaga usunąć brud i zanieczyszczenia z powierzchni lakieru. Następnie dokładnie myjemy nadkola i wnęki drzwiowe, 
+                            aby pozbyć się brudu i pyłu, który może gromadzić się w tych trudno dostępnych miejscach. Do mycia samochodu wykorzystujemy 
+                            szampon o neutralnym pH oraz specjalną metodę na “dwa wiadra”, co pozwala na dokładne i skuteczne usunięcie brudu, jednocześnie 
+                            minimalizując ryzyko powstawania rys na lakierze. Następnie dokładnie płuczemy pojazd czystą wodą i nanosimy hydrowosk, aby zapewnić
+                            dodatkową ochronę lakieru. Po nałożeniu hydrowosku, dokładnie osuszamy pojazd przy użyciu delikatnych ręczników z mikrofibry i 
+                            sprężonego powietrza, aby zapobiec powstawaniu zacieków i zarysowań. Nie zapominamy również o wnękach drzwiowych i klapy bagażnika, 
+                            które dokładnie osuszamy, aby zapobiec powstawaniu rdzy i korozji.Ostatnim etapem jest mycie szyb, aby zapewnić im czystość i klarowność, dzięki 
+                            czemu będziesz miał lepszą widoczność podczas jazdy. W ten sposób zapewniamy kompleksową pielęgnację Twojego samochodu, aby wyglądał on jak 
+                            nowy przez długi czas.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceSeven">
+                        <label for="CarOnePriceSeven">Sprzątanie deta;lingowe środka: 120zł</label>
+                        <div class="content">
+                            Pierwszym etapem jest dokładne odkurzenie wnętrza, w tym siedzeń, podłogi, deski rozdzielczej i innych trudno dostępnych miejsc, 
+                            aby pozbyć się kurzu, brudu i innych zanieczyszczeń. Następnie przystępujemy do czyszczenia i pielęgnacji plastików wewnętrznych, 
+                            które są narażone na działanie promieni słonecznych i innych czynników zewnętrznych, które mogą powodować ich degradację. Do tego 
+                            celu stosujemy specjalne kosmetyki, które są przeznaczone do czyszczenia i pielęgnacji plastików, aby zapewnić im długotrwałą ochronę i 
+                            piękny wygląd. Kolejnym etapem jest mycie szyb, aby zapewnić im idealną czystość i przejrzystość. Wykorzystujemy specjalne środki czyszczące, 
+                            które pozwalają nam na usunięcie wszelkich zabrudzeń i zmatowień, które mogą wpływać na jakość widoczności podczas jazdy. Na koniec, czyszczymy 
+                            dywaniki gumowe lub materiałowe, które są często narażone na zabrudzenia i zanieczyszczenia z butów.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceEight">
+                        <label for="CarOnePriceEight">Sprzątanie detalingowe Komplekt: 220zł</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego samochodu. 
+                            Korzystamy z aplikacji piany aktywnej o neutralnym pH, która skutecznie usuwa brud i zanieczyszczenia z powierzchni lakieru. 
+                            Dodatkowo, myjemy nadkola i wnęki drzwiowe, felgi oraz dokładnie płuczemy pojazd czystą wodą. Wykorzystujemy szampon o neutralnym pH 
+                            i specjalną metodę na “dwa wiadra”, co gwarantuje skuteczne i bezpieczne mycie Twojego samochodu. Po dokładnym umyciu, płuczemy pojazd 
+                            czystą wodą, a następnie nanosimy hydrowosk, aby zapewnić ochronę lakieru. Przy zastosowaniu delikatnych ręczników z mikrofibry oraz sprężonego 
+                            powietrza, dokładnie osuszamy pojazd i wnęki drzwiowe oraz klapy bagażnika. Następnie aplikujemy dressing na opony oraz odkurzamy wnętrze samochodu, 
+                            dbając jednocześnie o czyszczenie i pielęgnację plastików wewnętrznych przy użyciu dedykowanych kosmetyków. Nie zapominamy również o czyszczeniu szyb 
+                            oraz dywaników gumowych lub materiałowych, aby Twój samochód był czysty i zadbane we wszystkich szczegółach. Nasza usługa oferuje kompleksowe czyszczenie 
+                            Twojego pojazdu, abyś mógł cieszyć się nieskazitelnym wyglądem swojego samochodu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceNine">
+                        <label for="CarOnePriceNine">Dekontaminacja chemiczna: 200zł</label>
+                        <div class="content">
+                            Przygotowanie do dekontaminacji lakieru jest kluczowe dla uzyskania nieskazitelnie czystego i lśniącego lakieru. 
+                            W tym celu przystępujemy do dokładnego mycia samochodu, aby pozbyć się brudu i zanieczyszczeń z powierzchni lakieru. 
+                            Kolejnym krokiem jest usuwanie smoły i asfaltu, które są często obecne na powierzchni lakieru i mogą powodować jego uszkodzenia. 
+                            Do tego celu wykorzystujemy specjalne środki chemiczne, które są skuteczne w usuwaniu tych zanieczyszczeń, a jednocześnie nie uszkadzają lakieru. 
+                            Następnie przystępujemy do usuwania zabrudzeń metalicznych, które są często obecne na powierzchni lakieru w postaci rdzy i innych osadów. 
+                            Do tego celu stosujemy specjalne środki chemiczne, które skutecznie usuwają te zanieczyszczenia i przywracają lakierowi jego pierwotny blask. 
+                            Po wykonaniu dekontaminacji lakieru, przystępujemy do końcowego mycia samochodu, aby dokładnie usunąć pozostałe zanieczyszczenia i pozostawić 
+                            lakier w idealnym stanie. Dzięki naszej usłudze, Twój samochód będzie wyglądał jak nowy, a lakier będzie chroniony przed szkodliwymi czynnikami 
+                            zewnętrznymi przez długi czas.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceTen">
+                        <label for="CarOnePriceTen">Wosk twardy: 250zł</label>
+                        <div class="content">
+                            Nasza usługa “Wosk twardy",to kompleksowe przygotowanie lakieru Twojego samochodu do ochrony przed uszkodzeniami spowodowanymi 
+                            czynnikami zewnętrznymi, takimi jak kamienie, piasek, sól drogowa itp. Nasz proces przygotowania do dekontaminacji lakieru obejmuje kilka etapów, w 
+                            tym mycie samochodu, usuwanie smoły i asfaltu, usuwanie zabrudzeń metalicznych, końcowe mycie samochodu oraz ręczną aplikację wosku twardego. 
+                            W ten sposób Twój samochód zostanie dokładnie oczyścili z wszelkich zabrudzeń, a jego lakier będzie przygotowany do naniesienia wosku.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceEleven">
+                        <label for="CarOnePriceEleven">Powłoka 3 miesięczna: 100zł</label>
+                        <div class="content">
+                            Powłoka zapewnia silny efekt hydrofobowy, które nie tylko odpycha wodę, ale także brud. Dzięki powłoce mycie auta jest dziecinnie proste.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceTwelve">
+                        <label for="CarOnePriceTwelve">Powłoka hydrofobowa na przednią szybę: 150zł</label>
+                        <div class="content">
+                            Nasza usługa “Powłoka hydrofobowa na przednią szybę to innowacyjne rozwiązanie dla Twojego samochodu. 
+                            Dzięki zastosowaniu tej technologii, szyba Twojego pojazdu zostanie pokryte specjalnym preparatem, 
+                            który zapobiega zbieraniu się wody na powierzchni szyby podczas jazdy. Dzięki temu zabiegowi zwiększa 
+                            się widoczność podczas deszczowej pogody, co przyczynia się do poprawy bezpieczeństwa jazdy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceThirteen">
+                        <label for="CarOnePriceThirteen">Powłoka hydrofobowa wszystkich szyb: 300zł</label>
+                        <div class="content">
+                            Nasza usługa “Powłoka hydrofobowa wszystkich szyb” to innowacyjne rozwiązanie dla Twojego samochodu. 
+                            Dzięki zastosowaniu tej technologii, szyby Twojego pojazdu zostaną pokryte specjalnym preparatem, 
+                            który zapobiega zbieraniu się wody na powierzchni szyb podczas jazdy. Dzięki temu zabiegowi zwiększa 
+                            się widoczność podczas deszczowej pogody, co przyczynia się do poprawy bezpieczeństwa jazdy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceFourteen">
+                        <label for="CarOnePriceFourteen">Korekta lakeru One-Step: 800zł</label>
+                        <div class="content">
+                            Nasza usługa “One step” to kompleksowe odświeżenie lakieru Twojego pojazdu. Rozpoczynamy od mycia Premium, 
+                            które obejmuje pełną dekontaminację chemiczną, glinkowanie, domywanie wnęk drzwi. Następnie dokonujemy inspekcji 
+                            lakieru, aby dobrać odpowiedni system polerski, który umożliwi jednoetapowe odświeżenie powierzchni lakieru. 
+                            Proces polerowania lakieru obejmuje dobór odpowiedniej pasty i przeprowadzenie jednoetapowego polerowania. 
+                            Dzięki temu zabiegowi powierzchnia lakieru zostanie odświeżona, a sam lakier nabierze blasku i świeżości. 
+                            Dodatkowo,wymywamy resztki pasty, aby zapewnić perfekcyjny efekt końcowy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceFifteen">
+                        <label for="CarOnePriceFifteen">Czyszczenie chromu: od 50zł</label>
+                        <div class="content">
+                            Używamy preparat czyszczący w sprayu. Następnie niewielką ilość wybranego preparatu do czyszczenia chromu nanosimy na miękką szmatkę z 
+                            mikrofibry i wcieramy w wybrany element kolistymi ruchami. Następnie ścieramy nadmiar pasty i polerujemy element, aż do uzyskania pełnego połysku.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceSixteen">
+                        <label for="CarOnePriceSixteen">Usuwanie naklejek autstradowych/rejestracyjnych: 70zł</label>
+                        <div class="content">
+                            Nanosimy specjalistyczny produkt do usuwania kleju na powierzchnię naklejki.Następnie zdrapujemu naklejkę za 
+                            pomocą plastikowego szpachelka.Po usunięciu naklejki i resztek kleju, dokładnie myjemy i wycieramy obszar, aby 
+                            pozbyć się wszelkich śladów pozostałych po naklejce.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceSeventeen">
+                        <label for="CarOnePriceSeventeen">Usuwanie sierści: od 50zł</label>
+                        <div class="content">
+                            Aby usunąć sierść z samochodu, używamy narzędzi takich jak zgrzebło, rękawica, szczotka kauczukowa lub grzebień. 
+                            Każde z tych narzędzi skutecznie usuwa sierść z różnych powierzchni samochodu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceEighteen">
+                        <label for="CarOnePriceEighteen">Kompleksowe pranie tapicerki: 370zł</label>
+                        <div class="content">
+                            Do prania tapicerki możesz wybrać jedną z metod.Metoda ekstrakcji to skuteczna metoda czyszczenia tapicerki samochodowej, 
+                            która polega na wtryskiwaniu specjalnego roztworu czyszczącego do tapicerki i jednoczesnym jego odsysaniu wraz z zabrudzeniami 
+                            za pomocą ekstraktora tapicerki.Metoda czyszczenia tapicerki "na sucho" polega na usuwaniu zabrudzeń z tapicerki bez użycia dużej 
+                            ilości wody lub środków chemicznych. Jest to przydatna metoda, gdy chcesz szybko odświeżyć tapicerkę bez konieczności jej przemaczania.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceNineteen">
+                        <label for="CarOnePriceNineteen">Czyszczenie skór i pielegnacja: 250zł</label>
+                        <div class="content">
+                            Kompleksowe czyszczenie i pielęgnacja skórzanych elementów w samochodzie, takich jak fotele, tapicerka, 
+                            kierownica, drzwi czy deska rozdzielcza. Odkurzanie usuwa zanieczyszczenia, kurz i drobne resztki z powierzchni skóry, 
+                            a następnie specjalne środki czyszczące pozwalają nam na usunięcie trudniejszych plam i zabrudzeń. Ostatecznie, skóra jest 
+                            konserwowana, aby zachować miękkość, elastyczność i oryginalny kolor oraz chronić ją przed przyszłymi uszkodzeniami. 
+                            Impregnacja pomaga wodoodpornie i plamoodpornie chronić skórę przed zanieczyszczeniami i utrzymać jej wygląd przez dłuższy czas. 
+                            Efektem całej usługi jest odnowienie skóry i przywrócenie jej estetycznego wyglądu oraz dłuższe zachowanie jej w dobrym stanie technicznym.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceTwenty">
+                        <label for="CarOnePriceTwenty">Pranie Full-Komplekt: 900zł</label>
+                        <div class="content">
+                            Usługa Pranie Full-Komplekt to kompleksowe mycie i czyszczenie wnętrza oraz zewnętrznych elementów samochodu. 
+                            Zewnętrzna część samochodu jest dokładnie umyta, a wnętrze jest dokładnie odkurzone, a następnie czyszczone 
+                            przy użyciu techniki tornadorowania, która pozwala na usunięcie nawet trudnych zabrudzeń i plam. Foteli może wymagać 
+                            demontażu, w zależności od modelu samochodu, aby umożliwić dokładne czyszczenie i pranie tkanin. Podłoga, dywaniki i 
+                            bagażnik są również dokładnie umyte i odświeżone. Plastiki i podsufitka są czyszczone, a także poddane bonetowaniu, aby 
+                            pozostały lśniące i odporne na kurz. Pranie foteli pozwala na usunięcie z nich brudu i plam, a także przywrócenie im oryginalnego 
+                            koloru. Szyby są również dokładnie umyte. Po zakończeniu mycia i czyszczenia samochodu, opony są pokryte dressingiem, który dodaje 
+                            połysku i zapobiega starzeniu się gumy, a także lakier jest pokryty quickdetailerem, który dodaje połysku i chroni lakier
+                            oraz przed zanieczyszczeniami. Wszystkie te czynności pozwolą na odnowienie samochodu i przywrócenie mu świeżości i estetycznego wyglądu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarOnePriceTwentyOne">
+                        <label for="CarOnePriceTwentyOne">Czyszczenie felg(Deironizer): 100zł</label>
+                        <div class="content">
+                            Czyszczenie felg przy użyciu deironizatora jest skutecznym sposobem na usunięcie zanieczyszczeń, takich jak rdza i osady żelaza, 
+                            które gromadzą się na felgach. Deironizer działa poprzez reakcję chemiczną, która rozpuszcza i neutralizuje zanieczyszczenia, ułatwiając ich usunięcie.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="CarTwo" class="description">
+                <ul class="accordion">
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceOne">
+                        <label for="CarTwoPriceOne">Mycie podwozia: Wycena indywidualna</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego podwozia. 
+                            Korzystamy z aplikacji piany aktywnej która skutecznie usuwa brud i zanieczyszczenia z powierzchni podwozia. 
+                            Dodatkowo, myjemy nadkola,felgi oraz dokładnie płuczemy podwozie czystą wodą.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceTwo">
+                        <label for="CarTwoPriceTwo">Mycie zewnętrzne samochodu ciężarowego pow. 3.5T do 6.5T</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego samochodu. 
+                            Korzystamy z aplikacji piany aktywnej, która skutecznie usuwa brud i zanieczyszczenia z powierzchni. 
+                            Dodatkowo, myjemy nadkola, felgi oraz dokładnie płuczemy pojazd czystą wodą.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceThree">
+                        <label for="CarTwoPriceThree">Mycie zewnątrz: 100zł</label>
+                        <div class="content">
+                            Mycie zewnątrz zaczynamy od aplikacji piany aktywnej, która pomaga usunąć brud i zanieczyszczenia z powierzchni lakieru.
+                            Następnie dokładnie myjemy nadkola, aby pozbyć się brudu i pyłu, który może gromadzić się w tych trudno dostępnych miejscach. 
+                            Kolejnym krokiem jest mycie felg, aby usunąć z nich nagromadzony brud i osady.Do mycia samochodu wykorzystujemy szampon kwaśny 
+                            oraz specjalną metodę na “dwa wiadra”, co pozwala na dokładne i skuteczne usunięcie brudu, jednocześnie minimalizując ryzyko powstawania rys na lakierze.
+                            Po tym etapie dokładnie płuczemy samochód czystą wodą, aby pozbyć się resztek aktywnej piany i brudu. Następnie dokładnie płuczemy pojazd czystą wodą i 
+                            nanosimy hydrowosk, aby zapewnić dodatkową ochronę lakieru. Po nałożeniu hydrowosku, które osuszamy pojazd przy użyciu delikatnych ręczników z mikrofibry, 
+                            aby zapobiec powstawaniu zacieków i zarysowań. Nie zapominamy również o wnękach drzwiowych i klapy bagażnika, które wycieramy, aby zapobiec powstawaniu rdzy 
+                            i korozji. Na koniec aplikujemy dressing na opony, aby zapewnić im elegancki i lśniący wygląd. Ostatnim etapem jest mycie szyb(ze strony zewnętrznej), 
+                            aby zapewnić im czystość i klarowność, dzięki czemu będziesz miał lepszą widoczność podczas jazdy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceFour">
+                        <label for="CarTwoPriceFour">Sprzątanie środka: 100zł</label>
+                        <div class="content">
+                            Pierwszym etapem jest dokładne odkurzenie wnętrza, w tym siedzeń, podłogi, deski rozdzielczej i innych trudno dostępnych miejsc, 
+                            aby pozbyć się kurzu, brudu i innych zanieczyszczeń. Następnie przystępujemy do wycierania pyłu na plastiku wewnętrznym. 
+                            Kolejnym etapem jest mycie szyb(ze strony wewnętrznej), aby zapewnić im idealną czystość i przejrzystość. 
+                            Wykorzystujemy specjalne środki czyszczące, które pozwalają nam na usunięcie wszelkich zabrudzeń i zmatowień, które mogą wpływać 
+                            na jakość widoczności podczas jazdy. Na koniec, czyszczymy dywaniki gumowe lub odkurzamy dywaniki materiałowe, które są często narażone 
+                            na zabrudzenia i zanieczyszczenia z butów.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceFive">
+                        <label for="CarTwoPriceFive">Sprzątanie Komplekt: 180zł</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego samochodu. 
+                            Korzystamy z aplikacji piany aktywnej, która skutecznie usuwa brud i zanieczyszczenia z powierzchni lakieru. 
+                            Dodatkowo, myjemy nadkola i wnęki drzwiowe, felgi. Do mycia samochodu wykorzystujemy szampon kwaśny oraz specjalną
+                            metodę na “dwa wiadra”, co pozwala na dokładne i skuteczne usunięcie brudu, jednocześnie minimalizując ryzyko powstawania
+                            rys na lakierze.Po tym etapie dokładnie płuczemy samochód czystą wodą, aby pozbyć się resztek aktywnej piany i brudu.Po
+                            dokładnym umyciu, płuczemy pojazd czystą wodą, a następnie nanosimy hydrowosk, aby zapewnić ochronę lakieru. Przy zastosowaniu
+                            delikatnych ręczników z mikrofibry oraz sprężonego powietrza, dokładnie osuszamy pojazd i wnęki drzwiowe oraz klapy bagażnika. 
+                            Następnie aplikujemy dressing na opony oraz odkurzamy wnętrze samochodu, dbając jednocześnie o czyszczenie i pielęgnację plastików 
+                            wewnętrznych przy użyciu dedykowanych kosmetyków. Nie zapominamy również o czyszczeniu szyb oraz dywaników gumowych lub materiałowych, 
+                            aby Twój samochód był czysty i zadbane we wszystkich szczegółach. Nasza usługa oferuje kompleksowe czyszczenie Twojego pojazdu, abyś mógł
+                            cieszyć się nieskazitelnym wyglądem swojego samochodu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceSix">
+                        <label for="CarTwoPriceSix">Mycie detlingowe zewnętrz: 140zł</label>
+                        <div class="content">
+                            Quick-Detailer zaczynamy z mycia felg oraz opon, aby usunąć z nich nagromadzony brud i osady, 
+                            wykorzystujemy do tego środki chemiczne. Po tym etapie dokładnie płuczemy samochód czystą wodą, aby 
+                            pozbyć się resztek szamponu i brudu. Kolejnym krokiem zaczynamy od aplikacji piany aktywnej o neutralnym pH, 
+                            która pomaga usunąć brud i zanieczyszczenia z powierzchni lakieru. Następnie dokładnie myjemy nadkola i wnęki drzwiowe, 
+                            aby pozbyć się brudu i pyłu, który może gromadzić się w tych trudno dostępnych miejscach. Do mycia samochodu wykorzystujemy 
+                            szampon o neutralnym pH oraz specjalną metodę na “dwa wiadra”, co pozwala na dokładne i skuteczne usunięcie brudu, jednocześnie 
+                            minimalizując ryzyko powstawania rys na lakierze. Następnie dokładnie płuczemy pojazd czystą wodą i nanosimy hydrowosk, aby zapewnić
+                            dodatkową ochronę lakieru. Po nałożeniu hydrowosku, dokładnie osuszamy pojazd przy użyciu delikatnych ręczników z mikrofibry i 
+                            sprężonego powietrza, aby zapobiec powstawaniu zacieków i zarysowań. Nie zapominamy również o wnękach drzwiowych i klapy bagażnika, 
+                            które dokładnie osuszamy, aby zapobiec powstawaniu rdzy i korozji. Na koniec podbijamy działanie wosku za pomocą quick-detaileru aplikujemy 
+                            dressing na opony, aby zapewnić im elegancki i lśniący wygląd. Ostatnim etapem jest mycie szyb, aby zapewnić im czystość i klarowność, dzięki 
+                            czemu będziesz miał lepszą widoczność podczas jazdy. W ten sposób zapewniamy kompleksową pielęgnację Twojego samochodu, aby wyglądał on jak 
+                            nowy przez długi czas.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceSeven">
+                        <label for="CarTwoPriceSeven">Sprzątanie detalingowe środka: 140zł</label>
+                        <div class="content">
+                            Pierwszym etapem jest dokładne odkurzenie wnętrza, w tym siedzeń, podłogi, deski rozdzielczej i innych trudno dostępnych miejsc, 
+                            aby pozbyć się kurzu, brudu i innych zanieczyszczeń. Następnie przystępujemy do czyszczenia i pielęgnacji plastików wewnętrznych, 
+                            które są narażone na działanie promieni słonecznych i innych czynników zewnętrznych, które mogą powodować ich degradację. Do tego 
+                            celu stosujemy specjalne kosmetyki, które są przeznaczone do czyszczenia i pielęgnacji plastików, aby zapewnić im długotrwałą ochronę i 
+                            piękny wygląd. Kolejnym etapem jest mycie szyb, aby zapewnić im idealną czystość i przejrzystość. Wykorzystujemy specjalne środki czyszczące, 
+                            które pozwalają nam na usunięcie wszelkich zabrudzeń i zmatowień, które mogą wpływać na jakość widoczności podczas jazdy. Na koniec, czyszczymy 
+                            dywaniki gumowe lub materiałowe, które są często narażone na zabrudzenia i zanieczyszczenia z butów.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceEight">
+                        <label for="CarTwoPriceEight">Sprzątanie Komplekt: 260zł</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego samochodu. 
+                            Korzystamy z aplikacji piany aktywnej o neutralnym pH, która skutecznie usuwa brud i zanieczyszczenia z powierzchni lakieru. 
+                            Dodatkowo, myjemy nadkola i wnęki drzwiowe, felgi oraz dokładnie płuczemy pojazd czystą wodą. Wykorzystujemy szampon o neutralnym pH 
+                            i specjalną metodę na “dwa wiadra”, co gwarantuje skuteczne i bezpieczne mycie Twojego samochodu. Po dokładnym umyciu, płuczemy pojazd 
+                            czystą wodą, a następnie nanosimy hydrowosk, aby zapewnić ochronę lakieru. Przy zastosowaniu delikatnych ręczników z mikrofibry oraz sprężonego 
+                            powietrza, dokładnie osuszamy pojazd i wnęki drzwiowe oraz klapy bagażnika. Następnie aplikujemy dressing na opony oraz odkurzamy wnętrze samochodu, 
+                            dbając jednocześnie o czyszczenie i pielęgnację plastików wewnętrznych przy użyciu dedykowanych kosmetyków. Nie zapominamy również o czyszczeniu szyb 
+                            oraz dywaników gumowych lub materiałowych, aby Twój samochód był czysty i zadbane we wszystkich szczegółach. Nasza usługa oferuje kompleksowe czyszczenie 
+                            Twojego pojazdu, abyś mógł cieszyć się nieskazitelnym wyglądem swojego samochodu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceNine">
+                        <label for="CarTwoPriceNine">Dekontaminacja chemiczna: 250zł</label>
+                        <div class="content">
+                            Przygotowanie do dekontaminacji lakieru jest kluczowe dla uzyskania nieskazitelnie czystego i lśniącego lakieru. 
+                            W tym celu przystępujemy do dokładnego mycia samochodu, aby pozbyć się brudu i zanieczyszczeń z powierzchni lakieru. 
+                            Kolejnym krokiem jest usuwanie smoły i asfaltu, które są często obecne na powierzchni lakieru i mogą powodować jego uszkodzenia. 
+                            Do tego celu wykorzystujemy specjalne środki chemiczne, które są skuteczne w usuwaniu tych zanieczyszczeń, a jednocześnie nie uszkadzają lakieru. 
+                            Następnie przystępujemy do usuwania zabrudzeń metalicznych, które są często obecne na powierzchni lakieru w postaci rdzy i innych osadów. 
+                            Do tego celu stosujemy specjalne środki chemiczne, które skutecznie usuwają te zanieczyszczenia i przywracają lakierowi jego pierwotny blask. 
+                            Po wykonaniu dekontaminacji lakieru, przystępujemy do końcowego mycia samochodu, aby dokładnie usunąć pozostałe zanieczyszczenia i pozostawić 
+                            lakier w idealnym stanie. Dzięki naszej usłudze, Twój samochód będzie wyglądał jak nowy, a lakier będzie chroniony przed szkodliwymi czynnikami 
+                            zewnętrznymi przez długi czas.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceTen">
+                        <label for="CarTwoPriceTen">Wosk twardy: 300zł</label>
+                        <div class="content">
+                            Nasza usługa “Wosk twardy” to kompleksowe przygotowanie lakieru Twojego samochodu do ochrony przed uszkodzeniami spowodowanymi 
+                            czynnikami zewnętrznymi, takimi jak kamienie, piasek, sól drogowa itp. Nasz proces przygotowania do dekontaminacji lakieru obejmuje kilka etapów, w 
+                            tym mycie samochodu, usuwanie smoły i asfaltu, usuwanie zabrudzeń metalicznych, końcowe mycie samochodu oraz ręczną aplikację wosku twardego. 
+                            W ten sposób Twój samochód zostanie dokładnie oczyścili z wszelkich zabrudzeń, a jego lakier będzie przygotowany do naniesienia wosku.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceEleven">
+                        <label for="CarTwoPriceEleven">Powłoka 3 miesięczna: 130zł</label>
+                        <div class="content">
+                            Powłoka zapewnia silny efekt hydrofobowy, które nie tylko odpycha wodę, ale także brud. Dzięki powłoce mycie auta jest dziecinnie proste.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceTwelve">
+                        <label for="CarTwoPriceTwelve">Powłoka hydrofobowa na przednią szybę: 150zł</label>
+                        <div class="content">
+                            Nasza usługa “Powłoka hydrofobowa na przednią szybę to innowacyjne rozwiązanie dla Twojego samochodu. 
+                            Dzięki zastosowaniu tej technologii, szyba Twojego pojazdu zostanie pokryte specjalnym preparatem, 
+                            który zapobiega zbieraniu się wody na powierzchni szyby podczas jazdy. Dzięki temu zabiegowi zwiększa 
+                            się widoczność podczas deszczowej pogody, co przyczynia się do poprawy bezpieczeństwa jazdy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceThirteen">
+                        <label for="CarTwoPriceThirteen">Powłoka hydrofobowa wszystkich szyb: 300zł</label>
+                        <div class="content">
+                            Nasza usługa “Powłoka hydrofobowa wszystkich szyb” to innowacyjne rozwiązanie dla Twojego samochodu. 
+                            Dzięki zastosowaniu tej technologii, szyby Twojego pojazdu zostaną pokryte specjalnym preparatem, 
+                            który zapobiega zbieraniu się wody na powierzchni szyb podczas jazdy. Dzięki temu zabiegowi zwiększa 
+                            się widoczność podczas deszczowej pogody, co przyczynia się do poprawy bezpieczeństwa jazdy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceFourteen">
+                        <label for="CarTwoPriceFourteen">Korekta lakeru One-Step: 850zł</label>
+                        <div class="content">
+                            Nasza usługa “One step” to kompleksowe odświeżenie lakieru Twojego pojazdu. Rozpoczynamy od mycia Premium, 
+                            które obejmuje pełną dekontaminację chemiczną, glinkowanie, domywanie wnęk drzwi. Następnie dokonujemy inspekcji 
+                            lakieru, aby dobrać odpowiedni system polerski, który umożliwi jednoetapowe odświeżenie powierzchni lakieru. 
+                            Proces polerowania lakieru obejmuje dobór odpowiedniej pasty i przeprowadzenie jednoetapowego polerowania. 
+                            Dzięki temu zabiegowi powierzchnia lakieru zostanie odświeżona, a sam lakier nabierze blasku i świeżości. 
+                            Dodatkowo, dokładnie doczyszczamy ranty i wymywamy resztki pasty, aby zapewnić perfekcyjny efekt końcowy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceFifteen">
+                        <label for="CarTwoPriceFifteen">Czyszczenie chromu: od 50zł</label>
+                        <div class="content">
+                            Używamy preparat czyszczący w sprayu. Następnie niewielką ilość wybranego preparatu do czyszczenia chromu nanosimy na miękką szmatkę z 
+                            mikrofibry i wcieramy w wybrany element kolistymi ruchami. Następnie ścieramy nadmiar pasty i polerujemy element, aż do uzyskania pełnego połysku.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceSixteen">
+                        <label for="CarTwoPriceSixteen">Usuwanie naklejek autstradowych/rejestracyjnych: 70zł</label>
+                        <div class="content">
+                            Nanosimy specjalistyczny produkt do usuwania kleju na powierzchnię naklejki.Następnie zdrapujemu naklejkę za 
+                            pomocą plastikowego szpachelka.Po usunięciu naklejki i resztek kleju, dokładnie myjemy i wycieramy obszar, aby 
+                            pozbyć się wszelkich śladów pozostałych po naklejce.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceSeventeen">
+                        <label for="CarTwoPriceSeventeen">Usuwanie sierści: od 50zł</label>
+                        <div class="content">
+                            Aby usunąć sierść z samochodu, używamy narzędzi takich jak zgrzebło, rękawica, szczotka kauczukowa lub grzebień. 
+                            Każde z tych narzędzi skutecznie usuwa sierść z różnych powierzchni samochodu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceEighteen">
+                        <label for="CarTwoPriceEighteen">Kompleksowe pranie tapicerki: 420zł</label>
+                        <div class="content">
+                            Do prania tapicerki możesz wybrać jedną z metod.Metoda ekstrakcji to skuteczna metoda czyszczenia tapicerki samochodowej, 
+                            która polega na wtryskiwaniu specjalnego roztworu czyszczącego do tapicerki i jednoczesnym jego odsysaniu wraz z zabrudzeniami 
+                            za pomocą ekstraktora tapicerki.Metoda czyszczenia tapicerki "na sucho" polega na usuwaniu zabrudzeń z tapicerki bez użycia dużej 
+                            ilości wody lub środków chemicznych. Jest to przydatna metoda, gdy chcesz szybko odświeżyć tapicerkę bez konieczności jej przemaczania.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceNineteen">
+                        <label for="CarTwoPriceNineteen">Czyszczenie skór i pielegnacja: 320zł</label>
+                        <div class="content">
+                            Kompleksowe czyszczenie i pielęgnacja skórzanych elementów w samochodzie, takich jak fotele, tapicerka, 
+                            kierownica, drzwi czy deska rozdzielcza. Odkurzanie usuwa zanieczyszczenia, kurz i drobne resztki z powierzchni skóry, 
+                            a następnie specjalne środki czyszczące pozwalają nam na usunięcie trudniejszych plam i zabrudzeń. Ostatecznie, skóra jest 
+                            konserwowana, aby zachować miękkość, elastyczność i oryginalny kolor oraz chronić ją przed przyszłymi uszkodzeniami. 
+                            Impregnacja pomaga wodoodpornie i plamoodpornie chronić skórę przed zanieczyszczeniami i utrzymać jej wygląd przez dłuższy czas. 
+                            Efektem całej usługi jest odnowienie skóry i przywrócenie jej estetycznego wyglądu oraz dłuższe zachowanie jej w dobrym stanie technicznym.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceTwenty">
+                        <label for="CarTwoPriceTwenty">Pranie Full-Komplekt: 1000zł</label>
+                        <div class="content">
+                            Usługa Pranie Full-Komplekt to kompleksowe mycie i czyszczenie wnętrza oraz zewnętrznych elementów samochodu. 
+                            Zewnętrzna część samochodu jest dokładnie umyta, a wnętrze jest dokładnie odkurzone, a następnie czyszczone 
+                            przy użyciu techniki tornadorowania, która pozwala na usunięcie nawet trudnych zabrudzeń i plam. Foteli może wymagać 
+                            demontażu, w zależności od modelu samochodu, aby umożliwić dokładne czyszczenie i pranie tkanin. Podłoga, dywaniki i 
+                            bagażnik są również dokładnie umyte i odświeżone. Plastiki i podsufitka są czyszczone, a także poddane bonetowaniu, aby 
+                            pozostały lśniące i odporne na kurz. Pranie foteli pozwala na usunięcie z nich brudu i plam, a także przywrócenie im oryginalnego 
+                            koloru. Szyby są również dokładnie umyte. Po zakończeniu mycia i czyszczenia samochodu, opony są pokryte dressingiem, który dodaje 
+                            połysku i zapobiega starzeniu się gumy, a także lakier jest pokryty quickdetailerem, który dodaje połysku i chroni lakier przed 
+                            zarysowaniami oraz przed zanieczyszczeniami. Wszystkie te czynności pozwolą na odnowienie samochodu i przywrócenie mu świeżości i estetycznego wyglądu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarTwoPriceTwentyOne">
+                        <label for="CarTwoPriceTwentyOne">Czyszczenie felg(Deironizer): 100zł</label>
+                        <div class="content">
+                            Czyszczenie felg przy użyciu deironizatora jest skutecznym sposobem na usunięcie zanieczyszczeń, takich jak rdza i osady żelaza, 
+                            które gromadzą się na felgach. Deironizer działa poprzez reakcję chemiczną, która rozpuszcza i neutralizuje zanieczyszczenia, ułatwiając ich usunięcie.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="CarThree" class="description">
+                <ul class="accordion">
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceOne">
+                        <label for="CarThreePriceOne">Mycie podwozia: Wycena indywidualna</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego podwozia. 
+                            Korzystamy z aplikacji piany aktywnej która skutecznie usuwa brud i zanieczyszczenia z powierzchni podwozia. 
+                            Dodatkowo, myjemy nadkola,felgi oraz dokładnie płuczemy podwozie czystą wodą.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceTwo">
+                        <label for="CarThreePriceTwo">Mycie zewnętrzne samochodu ciężarowego pow. 3.5T do 6.5T</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego samochodu. 
+                            Korzystamy z aplikacji piany aktywnej, która skutecznie usuwa brud i zanieczyszczenia z powierzchni. 
+                            Dodatkowo, myjemy nadkola, felgi oraz dokładnie płuczemy pojazd czystą wodą.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceThree">
+                        <label for="CarThreePriceThree">Mycie zewnątrz: 110zł</label>
+                        <div class="content">
+                            Mycie zewnątrz zaczynamy od aplikacji piany aktywnej, która pomaga usunąć brud i zanieczyszczenia z powierzchni lakieru.
+                            Następnie dokładnie myjemy nadkola, aby pozbyć się brudu i pyłu, który może gromadzić się w tych trudno dostępnych miejscach. 
+                            Kolejnym krokiem jest mycie felg, aby usunąć z nich nagromadzony brud i osady.Do mycia samochodu wykorzystujemy szampon kwaśny 
+                            oraz specjalną metodę na “dwa wiadra”, co pozwala na dokładne i skuteczne usunięcie brudu, jednocześnie minimalizując ryzyko powstawania rys na lakierze.
+                            Po tym etapie dokładnie płuczemy samochód czystą wodą, aby pozbyć się resztek aktywnej piany i brudu. Następnie dokładnie płuczemy pojazd czystą wodą i 
+                            nanosimy hydrowosk, aby zapewnić dodatkową ochronę lakieru. Po nałożeniu hydrowosku, które osuszamy pojazd przy użyciu delikatnych ręczników z mikrofibry, 
+                            aby zapobiec powstawaniu zacieków i zarysowań. Nie zapominamy również o wnękach drzwiowych i klapy bagażnika, które wycieramy, aby zapobiec powstawaniu rdzy 
+                            i korozji. Na koniec aplikujemy dressing na opony, aby zapewnić im elegancki i lśniący wygląd. Ostatnim etapem jest mycie szyb(ze strony zewnętrznej), 
+                            aby zapewnić im czystość i klarowność, dzięki czemu będziesz miał lepszą widoczność podczas jazdy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceFour">
+                        <label for="CarThreePriceFour">Sprzątanie środka: 110zł</label>
+                        <div class="content">
+                            Pierwszym etapem jest dokładne odkurzenie wnętrza, w tym siedzeń, podłogi, deski rozdzielczej i innych trudno dostępnych miejsc, 
+                            aby pozbyć się kurzu, brudu i innych zanieczyszczeń. Następnie przystępujemy do wycierania pyłu na plastiku wewnętrznym. 
+                            Kolejnym etapem jest mycie szyb(ze strony wewnętrznej), aby zapewnić im idealną czystość i przejrzystość. 
+                            Wykorzystujemy specjalne środki czyszczące, które pozwalają nam na usunięcie wszelkich zabrudzeń i zmatowień, które mogą wpływać 
+                            na jakość widoczności podczas jazdy. Na koniec, czyszczymy dywaniki gumowe lub odkurzamy dywaniki materiałowe, które są często narażone 
+                            na zabrudzenia i zanieczyszczenia z butów.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceFive">
+                        <label for="CarThreePriceFive">Sprzątanie Komplekt: 190zł</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego samochodu. 
+                            Korzystamy z aplikacji piany aktywnej, która skutecznie usuwa brud i zanieczyszczenia z powierzchni lakieru. 
+                            Dodatkowo, myjemy nadkola i wnęki drzwiowe, felgi. Do mycia samochodu wykorzystujemy szampon kwaśny oraz specjalną
+                            metodę na “dwa wiadra”, co pozwala na dokładne i skuteczne usunięcie brudu, jednocześnie minimalizując ryzyko powstawania
+                            rys na lakierze.Po tym etapie dokładnie płuczemy samochód czystą wodą, aby pozbyć się resztek aktywnej piany i brudu.Po
+                            dokładnym umyciu, płuczemy pojazd czystą wodą, a następnie nanosimy hydrowosk, aby zapewnić ochronę lakieru. Przy zastosowaniu
+                            delikatnych ręczników z mikrofibry oraz sprężonego powietrza, dokładnie osuszamy pojazd i wnęki drzwiowe oraz klapy bagażnika. 
+                            Następnie aplikujemy dressing na opony oraz odkurzamy wnętrze samochodu, dbając jednocześnie o czyszczenie i pielęgnację plastików 
+                            wewnętrznych przy użyciu dedykowanych kosmetyków. Nie zapominamy również o czyszczeniu szyb oraz dywaników gumowych lub materiałowych, 
+                            aby Twój samochód był czysty i zadbane we wszystkich szczegółach. Nasza usługa oferuje kompleksowe czyszczenie Twojego pojazdu, abyś mógł
+                            cieszyć się nieskazitelnym wyglądem swojego samochodu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceSix">
+                        <label for="CarThreePriceSix">Mycie detlingowe zewnętrz: 150zł</label>
+                        <div class="content">
+                            Quick-Detailer zaczynamy z mycia felg oraz opon, aby usunąć z nich nagromadzony brud i osady, 
+                            wykorzystujemy do tego środki chemiczne. Po tym etapie dokładnie płuczemy samochód czystą wodą, aby 
+                            pozbyć się resztek szamponu i brudu. Kolejnym krokiem zaczynamy od aplikacji piany aktywnej o neutralnym pH, 
+                            która pomaga usunąć brud i zanieczyszczenia z powierzchni lakieru. Następnie dokładnie myjemy nadkola i wnęki drzwiowe, 
+                            aby pozbyć się brudu i pyłu, który może gromadzić się w tych trudno dostępnych miejscach. Do mycia samochodu wykorzystujemy 
+                            szampon o neutralnym pH oraz specjalną metodę na “dwa wiadra”, co pozwala na dokładne i skuteczne usunięcie brudu, jednocześnie 
+                            minimalizując ryzyko powstawania rys na lakierze. Następnie dokładnie płuczemy pojazd czystą wodą i nanosimy hydrowosk, aby zapewnić
+                            dodatkową ochronę lakieru. Po nałożeniu hydrowosku, dokładnie osuszamy pojazd przy użyciu delikatnych ręczników z mikrofibry i 
+                            sprężonego powietrza, aby zapobiec powstawaniu zacieków i zarysowań. Nie zapominamy również o wnękach drzwiowych i klapy bagażnika, 
+                            które dokładnie osuszamy, aby zapobiec powstawaniu rdzy i korozji. Na koniec podbijamy działanie wosku za pomocą quick-detaileru aplikujemy 
+                            dressing na opony, aby zapewnić im elegancki i lśniący wygląd. Ostatnim etapem jest mycie szyb, aby zapewnić im czystość i klarowność, dzięki 
+                            czemu będziesz miał lepszą widoczność podczas jazdy. W ten sposób zapewniamy kompleksową pielęgnację Twojego samochodu, aby wyglądał on jak 
+                            nowy przez długi czas.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceSeven">
+                        <label for="CarThreePriceSeven">Sprzątanie detalingowe środka: 150zł</label>
+                        <div class="content">
+                            Pierwszym etapem jest dokładne odkurzenie wnętrza, w tym siedzeń, podłogi, deski rozdzielczej i innych trudno dostępnych miejsc, 
+                            aby pozbyć się kurzu, brudu i innych zanieczyszczeń. Następnie przystępujemy do czyszczenia i pielęgnacji plastików wewnętrznych, 
+                            które są narażone na działanie promieni słonecznych i innych czynników zewnętrznych, które mogą powodować ich degradację. Do tego 
+                            celu stosujemy specjalne kosmetyki, które są przeznaczone do czyszczenia i pielęgnacji plastików, aby zapewnić im długotrwałą ochronę i 
+                            piękny wygląd. Kolejnym etapem jest mycie szyb, aby zapewnić im idealną czystość i przejrzystość. Wykorzystujemy specjalne środki czyszczące, 
+                            które pozwalają nam na usunięcie wszelkich zabrudzeń i zmatowień, które mogą wpływać na jakość widoczności podczas jazdy. Na koniec, czyszczymy 
+                            dywaniki gumowe lub materiałowe, które są często narażone na zabrudzenia i zanieczyszczenia z butów.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceEight">
+                        <label for="CarThreePriceEight">Sprzątanie detalingowe Komplekt: 280zł</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego samochodu. 
+                            Korzystamy z aplikacji piany aktywnej o neutralnym pH, która skutecznie usuwa brud i zanieczyszczenia z powierzchni lakieru. 
+                            Dodatkowo, myjemy nadkola i wnęki drzwiowe, felgi oraz dokładnie płuczemy pojazd czystą wodą. Wykorzystujemy szampon o neutralnym pH 
+                            i specjalną metodę na “dwa wiadra”, co gwarantuje skuteczne i bezpieczne mycie Twojego samochodu. Po dokładnym umyciu, płuczemy pojazd 
+                            czystą wodą, a następnie nanosimy hydrowosk, aby zapewnić ochronę lakieru. Przy zastosowaniu delikatnych ręczników z mikrofibry oraz sprężonego 
+                            powietrza, dokładnie osuszamy pojazd i wnęki drzwiowe oraz klapy bagażnika. Następnie aplikujemy dressing na opony oraz odkurzamy wnętrze samochodu, 
+                            dbając jednocześnie o czyszczenie i pielęgnację plastików wewnętrznych przy użyciu dedykowanych kosmetyków. Nie zapominamy również o czyszczeniu szyb 
+                            oraz dywaników gumowych lub materiałowych, aby Twój samochód był czysty i zadbane we wszystkich szczegółach. Nasza usługa oferuje kompleksowe czyszczenie 
+                            Twojego pojazdu, abyś mógł cieszyć się nieskazitelnym wyglądem swojego samochodu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceNine">
+                        <label for="CarThreePriceNine">Dekontaminacja chemiczna: 300zł</label>
+                        <div class="content">
+                            Przygotowanie do dekontaminacji lakieru jest kluczowe dla uzyskania nieskazitelnie czystego i lśniącego lakieru. 
+                            W tym celu przystępujemy do dokładnego mycia samochodu, aby pozbyć się brudu i zanieczyszczeń z powierzchni lakieru. 
+                            Kolejnym krokiem jest usuwanie smoły i asfaltu, które są często obecne na powierzchni lakieru i mogą powodować jego uszkodzenia. 
+                            Do tego celu wykorzystujemy specjalne środki chemiczne, które są skuteczne w usuwaniu tych zanieczyszczeń, a jednocześnie nie uszkadzają lakieru. 
+                            Następnie przystępujemy do usuwania zabrudzeń metalicznych, które są często obecne na powierzchni lakieru w postaci rdzy i innych osadów. 
+                            Do tego celu stosujemy specjalne środki chemiczne, które skutecznie usuwają te zanieczyszczenia i przywracają lakierowi jego pierwotny blask. 
+                            Po wykonaniu dekontaminacji lakieru, przystępujemy do końcowego mycia samochodu, aby dokładnie usunąć pozostałe zanieczyszczenia i pozostawić 
+                            lakier w idealnym stanie. Dzięki naszej usłudze, Twój samochód będzie wyglądał jak nowy, a lakier będzie chroniony przed szkodliwymi czynnikami 
+                            zewnętrznymi przez długi czas.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceTen">
+                        <label for="CarThreePriceTen">Wosk twardy: 320zł</label>
+                        <div class="content">
+                            Nasza usługa “Wosk twardy” to kompleksowe przygotowanie lakieru Twojego samochodu do ochrony przed uszkodzeniami spowodowanymi 
+                            czynnikami zewnętrznymi, takimi jak kamienie, piasek, sól drogowa itp. Nasz proces przygotowania do dekontaminacji lakieru obejmuje kilka etapów, w 
+                            tym mycie samochodu, usuwanie smoły i asfaltu, usuwanie zabrudzeń metalicznych, końcowe mycie samochodu oraz ręczną aplikację wosku twardego. 
+                            W ten sposób Twój samochód zostanie dokładnie oczyścili z wszelkich zabrudzeń, a jego lakier będzie przygotowany do naniesienia wosku.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceEleven">
+                        <label for="CarThreePriceEleven">Powłoka 3 miesięczna: 140zł</label>
+                        <div class="content">
+                            Powłoka zapewnia silny efekt hydrofobowy, które nie tylko odpycha wodę, ale także brud. Dzięki powłoce mycie auta jest dziecinnie proste.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceTwelve">
+                        <label for="CarThreePriceTwelve">Powłoka hydrofobowa na przednią szybę: 150zł</label>
+                        <div class="content">
+                            Nasza usługa “Powłoka hydrofobowa na przednią szybę to innowacyjne rozwiązanie dla Twojego samochodu. 
+                            Dzięki zastosowaniu tej technologii, szyba Twojego pojazdu zostanie pokryte specjalnym preparatem, 
+                            który zapobiega zbieraniu się wody na powierzchni szyby podczas jazdy. Dzięki temu zabiegowi zwiększa 
+                            się widoczność podczas deszczowej pogody, co przyczynia się do poprawy bezpieczeństwa jazdy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceThirteen">
+                        <label for="CarThreePriceThirteen">Powłoka hydrofobowa wszystkich szyb: 300zł</label>
+                        <div class="content">
+                            Nasza usługa “Powłoka hydrofobowa wszystkich szyb” to innowacyjne rozwiązanie dla Twojego samochodu. 
+                            Dzięki zastosowaniu tej technologii, szyby Twojego pojazdu zostaną pokryte specjalnym preparatem, 
+                            który zapobiega zbieraniu się wody na powierzchni szyb podczas jazdy. Dzięki temu zabiegowi zwiększa 
+                            się widoczność podczas deszczowej pogody, co przyczynia się do poprawy bezpieczeństwa jazdy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceFourteen">
+                        <label for="CarThreePriceFourteen">Korekta lakeru One-Step: 870zł</label>
+                        <div class="content">
+                            Nasza usługa “One step” to kompleksowe odświeżenie lakieru Twojego pojazdu. Rozpoczynamy od mycia Premium, 
+                            które obejmuje pełną dekontaminację chemiczną, glinkowanie, domywanie wnęk drzwi. Następnie dokonujemy inspekcji 
+                            lakieru, aby dobrać odpowiedni system polerski, który umożliwi jednoetapowe odświeżenie powierzchni lakieru. 
+                            Proces polerowania lakieru obejmuje dobór odpowiedniej pasty i przeprowadzenie jednoetapowego polerowania. 
+                            Dzięki temu zabiegowi powierzchnia lakieru zostanie odświeżona, a sam lakier nabierze blasku i świeżości. 
+                            Dodatkowo, dokładnie doczyszczamy ranty i wymywamy resztki pasty, aby zapewnić perfekcyjny efekt końcowy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceFifteen">
+                        <label for="CarThreePriceFifteen">Czyszczenie chromu: od 50zł</label>
+                        <div class="content">
+                            Używamy preparat czyszczący w sprayu. Następnie niewielką ilość wybranego preparatu do czyszczenia chromu nanosimy na miękką szmatkę z 
+                            mikrofibry i wcieramy w wybrany element kolistymi ruchami. Następnie ścieramy nadmiar pasty i polerujemy element, aż do uzyskania pełnego połysku.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceSixteen">
+                        <label for="CarThreePriceSixteen">Usuwanie naklejek autstradowych/rejestracyjnych: 70zł</label>
+                        <div class="content">
+                            Nanosimy specjalistyczny produkt do usuwania kleju na powierzchnię naklejki.Następnie zdrapujemu naklejkę za 
+                            pomocą plastikowego szpachelka.Po usunięciu naklejki i resztek kleju, dokładnie myjemy i wycieramy obszar, aby 
+                            pozbyć się wszelkich śladów pozostałych po naklejce.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceSeventeen">
+                        <label for="CarThreePriceSeventeen">Usuwanie sierści: od 50zł</label>
+                        <div class="content">
+                            Aby usunąć sierść z samochodu, używamy narzędzi takich jak zgrzebło, rękawica, szczotka kauczukowa lub grzebień. 
+                            Każde z tych narzędzi skutecznie usuwa sierść z różnych powierzchni samochodu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceEighteen">
+                        <label for="CarThreePriceEighteen">Kompleksowe pranie tapicerki: 440zł</label>
+                        <div class="content">
+                            Do prania tapicerki możesz wybrać jedną z metod.Metoda ekstrakcji to skuteczna metoda czyszczenia tapicerki samochodowej, 
+                            która polega na wtryskiwaniu specjalnego roztworu czyszczącego do tapicerki i jednoczesnym jego odsysaniu wraz z zabrudzeniami 
+                            za pomocą ekstraktora tapicerki.Metoda czyszczenia tapicerki "na sucho" polega na usuwaniu zabrudzeń z tapicerki bez użycia dużej 
+                            ilości wody lub środków chemicznych. Jest to przydatna metoda, gdy chcesz szybko odświeżyć tapicerkę bez konieczności jej przemaczania.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceNineteen">
+                        <label for="CarThreePriceNineteen">Czyszczenie skór i pielegnacja: 340zł</label>
+                        <div class="content">
+                            Kompleksowe czyszczenie i pielęgnacja skórzanych elementów w samochodzie, takich jak fotele, tapicerka, 
+                            kierownica, drzwi czy deska rozdzielcza. Odkurzanie usuwa zanieczyszczenia, kurz i drobne resztki z powierzchni skóry, 
+                            a następnie specjalne środki czyszczące pozwalają nam na usunięcie trudniejszych plam i zabrudzeń. Ostatecznie, skóra jest 
+                            konserwowana, aby zachować miękkość, elastyczność i oryginalny kolor oraz chronić ją przed przyszłymi uszkodzeniami. 
+                            Impregnacja pomaga wodoodpornie i plamoodpornie chronić skórę przed zanieczyszczeniami i utrzymać jej wygląd przez dłuższy czas. 
+                            Efektem całej usługi jest odnowienie skóry i przywrócenie jej estetycznego wyglądu oraz dłuższe zachowanie jej w dobrym stanie technicznym.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceTwenty">
+                        <label for="CarThreePriceTwenty">Pranie Full-Komplekt: 1050zł</label>
+                        <div class="content">
+                            Usługa Pranie Full-Komplekt to kompleksowe mycie i czyszczenie wnętrza oraz zewnętrznych elementów samochodu. 
+                            Zewnętrzna część samochodu jest dokładnie umyta, a wnętrze jest dokładnie odkurzone, a następnie czyszczone 
+                            przy użyciu techniki tornadorowania, która pozwala na usunięcie nawet trudnych zabrudzeń i plam. Foteli może wymagać 
+                            demontażu, w zależności od modelu samochodu, aby umożliwić dokładne czyszczenie i pranie tkanin. Podłoga, dywaniki i 
+                            bagażnik są również dokładnie umyte i odświeżone. Plastiki i podsufitka są czyszczone, a także poddane bonetowaniu, aby 
+                            pozostały lśniące i odporne na kurz. Pranie foteli pozwala na usunięcie z nich brudu i plam, a także przywrócenie im oryginalnego 
+                            koloru. Szyby są również dokładnie umyte. Po zakończeniu mycia i czyszczenia samochodu, opony są pokryte dressingiem, który dodaje 
+                            połysku i zapobiega starzeniu się gumy, a także lakier jest pokryty quickdetailerem, który dodaje połysku i chroni lakier przed 
+                            zarysowaniami oraz przed zanieczyszczeniami. Wszystkie te czynności pozwolą na odnowienie samochodu i przywrócenie mu świeżości i estetycznego wyglądu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarThreePriceTwentyOne">
+                        <label for="CarThreePriceTwentyOne">Czyszczenie felg(Deironizer): 100zł</label>
+                        <div class="content">
+                            Czyszczenie felg przy użyciu deironizatora jest skutecznym sposobem na usunięcie zanieczyszczeń, takich jak rdza i osady żelaza, 
+                            które gromadzą się na felgach. Deironizer działa poprzez reakcję chemiczną, która rozpuszcza i neutralizuje zanieczyszczenia, ułatwiając ich usunięcie.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="CarFour" class="description">
+                <ul class="accordion">
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceOne">
+                        <label for="CarFourPriceOne">Mycie podwozia: Wycena indywidualna</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego podwozia. 
+                            Korzystamy z aplikacji piany aktywnej która skutecznie usuwa brud i zanieczyszczenia z powierzchni podwozia. 
+                            Dodatkowo, myjemy nadkola,felgi oraz dokładnie płuczemy podwozie czystą wodą.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceTwo">
+                        <label for="CarFourPriceTwo">Mycie zewnętrzne samochodu ciężarowego pow. 3.5T do 6.5T</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego samochodu. 
+                            Korzystamy z aplikacji piany aktywnej, która skutecznie usuwa brud i zanieczyszczenia z powierzchni. 
+                            Dodatkowo, myjemy nadkola, felgi oraz dokładnie płuczemy pojazd czystą wodą.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceThree">
+                        <label for="CarFourPriceThree">Mycie zewnątrz: 130zł</label>
+                        <div class="content">
+                            Mycie zewnątrz zaczynamy od aplikacji piany aktywnej, która pomaga usunąć brud i zanieczyszczenia z powierzchni lakieru.
+                            Następnie dokładnie myjemy nadkola, aby pozbyć się brudu i pyłu, który może gromadzić się w tych trudno dostępnych miejscach. 
+                            Kolejnym krokiem jest mycie felg, aby usunąć z nich nagromadzony brud i osady.Do mycia samochodu wykorzystujemy szampon kwaśny 
+                            oraz specjalną metodę na “dwa wiadra”, co pozwala na dokładne i skuteczne usunięcie brudu, jednocześnie minimalizując ryzyko powstawania rys na lakierze.
+                            Po tym etapie dokładnie płuczemy samochód czystą wodą, aby pozbyć się resztek aktywnej piany i brudu. Następnie dokładnie płuczemy pojazd czystą wodą i 
+                            nanosimy hydrowosk, aby zapewnić dodatkową ochronę lakieru. Po nałożeniu hydrowosku, które osuszamy pojazd przy użyciu delikatnych ręczników z mikrofibry, 
+                            aby zapobiec powstawaniu zacieków i zarysowań. Nie zapominamy również o wnękach drzwiowych i klapy bagażnika, które wycieramy, aby zapobiec powstawaniu rdzy 
+                            i korozji. Na koniec aplikujemy dressing na opony, aby zapewnić im elegancki i lśniący wygląd. Ostatnim etapem jest mycie szyb(ze strony zewnętrznej), 
+                            aby zapewnić im czystość i klarowność, dzięki czemu będziesz miał lepszą widoczność podczas jazdy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceFour">
+                        <label for="CarFourPriceFour">Sprzątanie środka: 130zł</label>
+                        <div class="content">
+                            Pierwszym etapem jest dokładne odkurzenie wnętrza, w tym siedzeń, podłogi, deski rozdzielczej i innych trudno dostępnych miejsc, 
+                            aby pozbyć się kurzu, brudu i innych zanieczyszczeń. Następnie przystępujemy do wycierania pyłu na plastiku wewnętrznym. 
+                            Kolejnym etapem jest mycie szyb(ze strony wewnętrznej), aby zapewnić im idealną czystość i przejrzystość. 
+                            Wykorzystujemy specjalne środki czyszczące, które pozwalają nam na usunięcie wszelkich zabrudzeń i zmatowień, które mogą wpływać 
+                            na jakość widoczności podczas jazdy. Na koniec, czyszczymy dywaniki gumowe lub odkurzamy dywaniki materiałowe, które są często narażone 
+                            na zabrudzenia i zanieczyszczenia z butów.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceFive">
+                        <label for="CarFourPriceFive">Sprzątanie Komplekt: 220zł</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego samochodu. 
+                            Korzystamy z aplikacji piany aktywnej, która skutecznie usuwa brud i zanieczyszczenia z powierzchni lakieru. 
+                            Dodatkowo, myjemy nadkola i wnęki drzwiowe, felgi. Do mycia samochodu wykorzystujemy szampon kwaśny oraz specjalną
+                            metodę na “dwa wiadra”, co pozwala na dokładne i skuteczne usunięcie brudu, jednocześnie minimalizując ryzyko powstawania
+                            rys na lakierze.Po tym etapie dokładnie płuczemy samochód czystą wodą, aby pozbyć się resztek aktywnej piany i brudu.Po
+                            dokładnym umyciu, płuczemy pojazd czystą wodą, a następnie nanosimy hydrowosk, aby zapewnić ochronę lakieru. Przy zastosowaniu
+                            delikatnych ręczników z mikrofibry oraz sprężonego powietrza, dokładnie osuszamy pojazd i wnęki drzwiowe oraz klapy bagażnika. 
+                            Następnie aplikujemy dressing na opony oraz odkurzamy wnętrze samochodu, dbając jednocześnie o czyszczenie i pielęgnację plastików 
+                            wewnętrznych przy użyciu dedykowanych kosmetyków. Nie zapominamy również o czyszczeniu szyb oraz dywaników gumowych lub materiałowych, 
+                            aby Twój samochód był czysty i zadbane we wszystkich szczegółach. Nasza usługa oferuje kompleksowe czyszczenie Twojego pojazdu, abyś mógł
+                            cieszyć się nieskazitelnym wyglądem swojego samochodu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceSix">
+                        <label for="CarFourPriceSix">Mycie detlingowe zewnętrz: 200zł</label>
+                        <div class="content">
+                            Quick-Detailer zaczynamy z mycia felg oraz opon, aby usunąć z nich nagromadzony brud i osady, 
+                            wykorzystujemy do tego środki chemiczne. Po tym etapie dokładnie płuczemy samochód czystą wodą, aby 
+                            pozbyć się resztek szamponu i brudu. Kolejnym krokiem zaczynamy od aplikacji piany aktywnej o neutralnym pH, 
+                            która pomaga usunąć brud i zanieczyszczenia z powierzchni lakieru. Następnie dokładnie myjemy nadkola i wnęki drzwiowe, 
+                            aby pozbyć się brudu i pyłu, który może gromadzić się w tych trudno dostępnych miejscach. Do mycia samochodu wykorzystujemy 
+                            szampon o neutralnym pH oraz specjalną metodę na “dwa wiadra”, co pozwala na dokładne i skuteczne usunięcie brudu, jednocześnie 
+                            minimalizując ryzyko powstawania rys na lakierze. Następnie dokładnie płuczemy pojazd czystą wodą i nanosimy hydrowosk, aby zapewnić
+                            dodatkową ochronę lakieru. Po nałożeniu hydrowosku, dokładnie osuszamy pojazd przy użyciu delikatnych ręczników z mikrofibry i 
+                            sprężonego powietrza, aby zapobiec powstawaniu zacieków i zarysowań. Nie zapominamy również o wnękach drzwiowych i klapy bagażnika, 
+                            które dokładnie osuszamy, aby zapobiec powstawaniu rdzy i korozji. Na koniec podbijamy działanie wosku za pomocą quick-detaileru aplikujemy 
+                            dressing na opony, aby zapewnić im elegancki i lśniący wygląd. Ostatnim etapem jest mycie szyb, aby zapewnić im czystość i klarowność, dzięki 
+                            czemu będziesz miał lepszą widoczność podczas jazdy. W ten sposób zapewniamy kompleksową pielęgnację Twojego samochodu, aby wyglądał on jak 
+                            nowy przez długi czas.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceSeven">
+                        <label for="CarFourPriceSeven">Sprzątanie detalingowe środka: 200zł</label>
+                        <div class="content">
+                            Pierwszym etapem jest dokładne odkurzenie wnętrza, w tym siedzeń, podłogi, deski rozdzielczej i innych trudno dostępnych miejsc, 
+                            aby pozbyć się kurzu, brudu i innych zanieczyszczeń. Następnie przystępujemy do czyszczenia i pielęgnacji plastików wewnętrznych, 
+                            które są narażone na działanie promieni słonecznych i innych czynników zewnętrznych, które mogą powodować ich degradację. Do tego 
+                            celu stosujemy specjalne kosmetyki, które są przeznaczone do czyszczenia i pielęgnacji plastików, aby zapewnić im długotrwałą ochronę i 
+                            piękny wygląd. Kolejnym etapem jest mycie szyb, aby zapewnić im idealną czystość i przejrzystość. Wykorzystujemy specjalne środki czyszczące, 
+                            które pozwalają nam na usunięcie wszelkich zabrudzeń i zmatowień, które mogą wpływać na jakość widoczności podczas jazdy. Na koniec, czyszczymy 
+                            dywaniki gumowe lub materiałowe, które są często narażone na zabrudzenia i zanieczyszczenia z butów.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceEight">
+                        <label for="CarFourPriceEight">Sprzątanie detalingowe Komplekt: 380zł</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego samochodu. 
+                            Korzystamy z aplikacji piany aktywnej o neutralnym pH, która skutecznie usuwa brud i zanieczyszczenia z powierzchni lakieru. 
+                            Dodatkowo, myjemy nadkola i wnęki drzwiowe, felgi oraz dokładnie płuczemy pojazd czystą wodą. Wykorzystujemy szampon o neutralnym pH 
+                            i specjalną metodę na “dwa wiadra”, co gwarantuje skuteczne i bezpieczne mycie Twojego samochodu. Po dokładnym umyciu, płuczemy pojazd 
+                            czystą wodą, a następnie nanosimy hydrowosk, aby zapewnić ochronę lakieru. Przy zastosowaniu delikatnych ręczników z mikrofibry oraz sprężonego 
+                            powietrza, dokładnie osuszamy pojazd i wnęki drzwiowe oraz klapy bagażnika. Następnie aplikujemy dressing na opony oraz odkurzamy wnętrze samochodu, 
+                            dbając jednocześnie o czyszczenie i pielęgnację plastików wewnętrznych przy użyciu dedykowanych kosmetyków. Nie zapominamy również o czyszczeniu szyb 
+                            oraz dywaników gumowych lub materiałowych, aby Twój samochód był czysty i zadbane we wszystkich szczegółach. Nasza usługa oferuje kompleksowe czyszczenie 
+                            Twojego pojazdu, abyś mógł cieszyć się nieskazitelnym wyglądem swojego samochodu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceNine">
+                        <label for="CarFourPriceNine">Dekontaminacja chemiczna: 350zł</label>
+                        <div class="content">
+                            Przygotowanie do dekontaminacji lakieru jest kluczowe dla uzyskania nieskazitelnie czystego i lśniącego lakieru. 
+                            W tym celu przystępujemy do dokładnego mycia samochodu, aby pozbyć się brudu i zanieczyszczeń z powierzchni lakieru. 
+                            Kolejnym krokiem jest usuwanie smoły i asfaltu, które są często obecne na powierzchni lakieru i mogą powodować jego uszkodzenia. 
+                            Do tego celu wykorzystujemy specjalne środki chemiczne, które są skuteczne w usuwaniu tych zanieczyszczeń, a jednocześnie nie uszkadzają lakieru. 
+                            Następnie przystępujemy do usuwania zabrudzeń metalicznych, które są często obecne na powierzchni lakieru w postaci rdzy i innych osadów. 
+                            Do tego celu stosujemy specjalne środki chemiczne, które skutecznie usuwają te zanieczyszczenia i przywracają lakierowi jego pierwotny blask. 
+                            Po wykonaniu dekontaminacji lakieru, przystępujemy do końcowego mycia samochodu, aby dokładnie usunąć pozostałe zanieczyszczenia i pozostawić 
+                            lakier w idealnym stanie. Dzięki naszej usłudze, Twój samochód będzie wyglądał jak nowy, a lakier będzie chroniony przed szkodliwymi czynnikami 
+                            zewnętrznymi przez długi czas.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceTen">
+                        <label for="CarFourPriceTen">Powłoka 3 miesięczna: 160zł</label>
+                        <div class="content">
+                            Powłoka zapewnia silny efekt hydrofobowy, które nie tylko odpycha wodę, ale także brud. Dzięki powłoce mycie auta jest dziecinnie proste.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceEleven">
+                        <label for="CarFourPriceEleven">Wosk twardy: 350zł</label>
+                        <div class="content">
+                            Nasza usługa “Wosk twardy” to kompleksowe przygotowanie lakieru Twojego samochodu do ochrony przed uszkodzeniami spowodowanymi 
+                            czynnikami zewnętrznymi, takimi jak kamienie, piasek, sól drogowa itp. Nasz proces przygotowania do dekontaminacji lakieru obejmuje kilka etapów, w 
+                            tym mycie samochodu, usuwanie smoły i asfaltu, usuwanie zabrudzeń metalicznych, końcowe mycie samochodu oraz ręczną aplikację wosku twardego. 
+                            W ten sposób Twój samochód zostanie dokładnie oczyścili z wszelkich zabrudzeń, a jego lakier będzie przygotowany do naniesienia wosku.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceTwelve">
+                        <label for="CarFourPriceTwelve">Powłoka hydrofobowa na przednią szybę: 150zł</label>
+                        <div class="content">
+                            Nasza usługa “Powłoka hydrofobowa na przednią szybę to innowacyjne rozwiązanie dla Twojego samochodu. 
+                            Dzięki zastosowaniu tej technologii, szyba Twojego pojazdu zostanie pokryte specjalnym preparatem, 
+                            który zapobiega zbieraniu się wody na powierzchni szyby podczas jazdy. Dzięki temu zabiegowi zwiększa 
+                            się widoczność podczas deszczowej pogody, co przyczynia się do poprawy bezpieczeństwa jazdy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceThirteen">
+                        <label for="CarFourPriceThirteen">Powłoka hydrofobowa wszystkich szyb: 300zł</label>
+                        <div class="content">
+                            Nasza usługa “Powłoka hydrofobowa wszystkich szyb” to innowacyjne rozwiązanie dla Twojego samochodu. 
+                            Dzięki zastosowaniu tej technologii, szyby Twojego pojazdu zostaną pokryte specjalnym preparatem, 
+                            który zapobiega zbieraniu się wody na powierzchni szyb podczas jazdy. Dzięki temu zabiegowi zwiększa 
+                            się widoczność podczas deszczowej pogody, co przyczynia się do poprawy bezpieczeństwa jazdy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceFourteen">
+                        <label for="CarFourPriceFourteen">Korekta lakeru One-Step: 1000zł</label>
+                        <div class="content">
+                            Nasza usługa “One step” to kompleksowe odświeżenie lakieru Twojego pojazdu. Rozpoczynamy od mycia Premium, 
+                            które obejmuje pełną dekontaminację chemiczną, glinkowanie, domywanie wnęk drzwi. Następnie dokonujemy inspekcji 
+                            lakieru, aby dobrać odpowiedni system polerski, który umożliwi jednoetapowe odświeżenie powierzchni lakieru. 
+                            Proces polerowania lakieru obejmuje dobór odpowiedniej pasty i przeprowadzenie jednoetapowego polerowania. 
+                            Dzięki temu zabiegowi powierzchnia lakieru zostanie odświeżona, a sam lakier nabierze blasku i świeżości. 
+                            Dodatkowo, dokładnie doczyszczamy ranty i wymywamy resztki pasty, aby zapewnić perfekcyjny efekt końcowy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceFifteen">
+                        <label for="CarFourPriceFifteen">Czyszczenie chromu: od 50zł></label>
+                        <div class="content">
+                            Używamy preparat czyszczący w sprayu. Następnie niewielką ilość wybranego preparatu do czyszczenia chromu nanosimy na miękką szmatkę z 
+                            mikrofibry i wcieramy w wybrany element kolistymi ruchami. Następnie ścieramy nadmiar pasty i polerujemy element, aż do uzyskania pełnego połysku.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceSixteen">
+                        <label for="CarFourPriceSixteen">Usuwanie naklejek autstradowych/rejestracyjnych: 70zł</label>
+                        <div class="content">
+                            Nanosimy specjalistyczny produkt do usuwania kleju na powierzchnię naklejki.Następnie zdrapujemu naklejkę za 
+                            pomocą plastikowego szpachelka.Po usunięciu naklejki i resztek kleju, dokładnie myjemy i wycieramy obszar, aby 
+                            pozbyć się wszelkich śladów pozostałych po naklejce.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceSeventeen">
+                        <label for="CarFourPriceSeventeen">Usuwanie sierści: od 50zł</label>
+                        <div class="content">
+                            Aby usunąć sierść z samochodu, używamy narzędzi takich jak zgrzebło, rękawica, szczotka kauczukowa lub grzebień. 
+                            Każde z tych narzędzi skutecznie usuwa sierść z różnych powierzchni samochodu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceEighteen">
+                        <label for="CarFourPriceEighteen">Kompleksowe pranie tapicerki: 470zł</label>
+                        <div class="content">
+                            Do prania tapicerki możesz wybrać jedną z metod.Metoda ekstrakcji to skuteczna metoda czyszczenia tapicerki samochodowej, 
+                            która polega na wtryskiwaniu specjalnego roztworu czyszczącego do tapicerki i jednoczesnym jego odsysaniu wraz z zabrudzeniami 
+                            za pomocą ekstraktora tapicerki.Metoda czyszczenia tapicerki "na sucho" polega na usuwaniu zabrudzeń z tapicerki bez użycia dużej 
+                            ilości wody lub środków chemicznych. Jest to przydatna metoda, gdy chcesz szybko odświeżyć tapicerkę bez konieczności jej przemaczania.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceNineteen">
+                        <label for="CarFourPriceNineteen">Czyszczenie skór i pielegnacja: 390zł</label>
+                        <div class="content">
+                            Kompleksowe czyszczenie i pielęgnacja skórzanych elementów w samochodzie, takich jak fotele, tapicerka, 
+                            kierownica, drzwi czy deska rozdzielcza. Odkurzanie usuwa zanieczyszczenia, kurz i drobne resztki z powierzchni skóry, 
+                            a następnie specjalne środki czyszczące pozwalają nam na usunięcie trudniejszych plam i zabrudzeń. Ostatecznie, skóra jest 
+                            konserwowana, aby zachować miękkość, elastyczność i oryginalny kolor oraz chronić ją przed przyszłymi uszkodzeniami. 
+                            Impregnacja pomaga wodoodpornie i plamoodpornie chronić skórę przed zanieczyszczeniami i utrzymać jej wygląd przez dłuższy czas. 
+                            Efektem całej usługi jest odnowienie skóry i przywrócenie jej estetycznego wyglądu oraz dłuższe zachowanie jej w dobrym stanie technicznym.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceTwenty">
+                        <label for="CarFourPriceTwenty">Pranie Full-Komplekt: 1100zł</label>
+                        <div class="content">
+                            Usługa Pranie Full-Komplekt to kompleksowe mycie i czyszczenie wnętrza oraz zewnętrznych elementów samochodu. 
+                            Zewnętrzna część samochodu jest dokładnie umyta, a wnętrze jest dokładnie odkurzone, a następnie czyszczone 
+                            przy użyciu techniki tornadorowania, która pozwala na usunięcie nawet trudnych zabrudzeń i plam. Foteli może wymagać 
+                            demontażu, w zależności od modelu samochodu, aby umożliwić dokładne czyszczenie i pranie tkanin. Podłoga, dywaniki i 
+                            bagażnik są również dokładnie umyte i odświeżone. Plastiki i podsufitka są czyszczone, a także poddane bonetowaniu, aby 
+                            pozostały lśniące i odporne na kurz. Pranie foteli pozwala na usunięcie z nich brudu i plam, a także przywrócenie im oryginalnego 
+                            koloru. Szyby są również dokładnie umyte. Po zakończeniu mycia i czyszczenia samochodu, opony są pokryte dressingiem, który dodaje 
+                            połysku i zapobiega starzeniu się gumy, a także lakier jest pokryty quickdetailerem, który dodaje połysku i chroni lakier przed 
+                            zarysowaniami oraz przed zanieczyszczeniami. Wszystkie te czynności pozwolą na odnowienie samochodu i przywrócenie mu świeżości i estetycznego wyglądu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFourPriceTwentyOne">
+                        <label for="CarFourPriceTwentyOne">Czyszczenie felg(Deironizer): 100zł</label>
+                        <div class="content">
+                            Czyszczenie felg przy użyciu deironizatora jest skutecznym sposobem na usunięcie zanieczyszczeń, takich jak rdza i osady żelaza, 
+                            które gromadzą się na felgach. Deironizer działa poprzez reakcję chemiczną, która rozpuszcza i neutralizuje zanieczyszczenia, ułatwiając ich usunięcie.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="CarFive" class="description">
+                <ul class="accordion">
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceOne">
+                        <label for="CarFivePriceOne">Mycie podwozia: Wycena indywidualna</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego podwozia. 
+                            Korzystamy z aplikacji piany aktywnej która skutecznie usuwa brud i zanieczyszczenia z powierzchni podwozia. 
+                            Dodatkowo, myjemy nadkola,felgi oraz dokładnie płuczemy podwozie czystą wodą.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceTwo">
+                        <label for="CarFivePriceTwo">Mycie zewnętrzne samochodu ciężarowego pow. 3.5T do 6.5T</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego samochodu. 
+                            Korzystamy z aplikacji piany aktywnej, która skutecznie usuwa brud i zanieczyszczenia z powierzchni. 
+                            Dodatkowo, myjemy nadkola, felgi oraz dokładnie płuczemy pojazd czystą wodą.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceThree">
+                        <label for="CarFivePriceThree">Mycie zewnątrz: 150zł</label>
+                        <div class="content">
+                            Mycie zewnątrz zaczynamy od aplikacji piany aktywnej, która pomaga usunąć brud i zanieczyszczenia z powierzchni lakieru.
+                            Następnie dokładnie myjemy nadkola, aby pozbyć się brudu i pyłu, który może gromadzić się w tych trudno dostępnych miejscach. 
+                            Kolejnym krokiem jest mycie felg, aby usunąć z nich nagromadzony brud i osady.Do mycia samochodu wykorzystujemy szampon kwaśny 
+                            oraz specjalną metodę na “dwa wiadra”, co pozwala na dokładne i skuteczne usunięcie brudu, jednocześnie minimalizując ryzyko powstawania rys na lakierze.
+                            Po tym etapie dokładnie płuczemy samochód czystą wodą, aby pozbyć się resztek aktywnej piany i brudu. Następnie dokładnie płuczemy pojazd czystą wodą i 
+                            nanosimy hydrowosk, aby zapewnić dodatkową ochronę lakieru. Po nałożeniu hydrowosku, które osuszamy pojazd przy użyciu delikatnych ręczników z mikrofibry, 
+                            aby zapobiec powstawaniu zacieków i zarysowań. Nie zapominamy również o wnękach drzwiowych i klapy bagażnika, które wycieramy, aby zapobiec powstawaniu rdzy 
+                            i korozji. Na koniec aplikujemy dressing na opony, aby zapewnić im elegancki i lśniący wygląd. Ostatnim etapem jest mycie szyb(ze strony zewnętrznej), 
+                            aby zapewnić im czystość i klarowność, dzięki czemu będziesz miał lepszą widoczność podczas jazdy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceFour">
+                        <label for="CarFivePriceFour">Sprzątanie środka: 150zł</label>
+                        <div class="content">
+                            Pierwszym etapem jest dokładne odkurzenie wnętrza, w tym siedzeń, podłogi, deski rozdzielczej i innych trudno dostępnych miejsc, 
+                            aby pozbyć się kurzu, brudu i innych zanieczyszczeń. Następnie przystępujemy do wycierania pyłu na plastiku wewnętrznym. 
+                            Kolejnym etapem jest mycie szyb(ze strony wewnętrznej), aby zapewnić im idealną czystość i przejrzystość. 
+                            Wykorzystujemy specjalne środki czyszczące, które pozwalają nam na usunięcie wszelkich zabrudzeń i zmatowień, które mogą wpływać 
+                            na jakość widoczności podczas jazdy. Na koniec, czyszczymy dywaniki gumowe lub odkurzamy dywaniki materiałowe, które są często narażone 
+                            na zabrudzenia i zanieczyszczenia z butów.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceFive">
+                        <label for="CarFivePriceFive">Sprzątanie Komplekt: 260zł</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego samochodu. 
+                            Korzystamy z aplikacji piany aktywnej, która skutecznie usuwa brud i zanieczyszczenia z powierzchni lakieru. 
+                            Dodatkowo, myjemy nadkola i wnęki drzwiowe, felgi. Do mycia samochodu wykorzystujemy szampon kwaśny oraz specjalną
+                            metodę na “dwa wiadra”, co pozwala na dokładne i skuteczne usunięcie brudu, jednocześnie minimalizując ryzyko powstawania
+                            rys na lakierze.Po tym etapie dokładnie płuczemy samochód czystą wodą, aby pozbyć się resztek aktywnej piany i brudu.Po
+                            dokładnym umyciu, płuczemy pojazd czystą wodą, a następnie nanosimy hydrowosk, aby zapewnić ochronę lakieru. Przy zastosowaniu
+                            delikatnych ręczników z mikrofibry oraz sprężonego powietrza, dokładnie osuszamy pojazd i wnęki drzwiowe oraz klapy bagażnika. 
+                            Następnie aplikujemy dressing na opony oraz odkurzamy wnętrze samochodu, dbając jednocześnie o czyszczenie i pielęgnację plastików 
+                            wewnętrznych przy użyciu dedykowanych kosmetyków. Nie zapominamy również o czyszczeniu szyb oraz dywaników gumowych lub materiałowych, 
+                            aby Twój samochód był czysty i zadbane we wszystkich szczegółach. Nasza usługa oferuje kompleksowe czyszczenie Twojego pojazdu, abyś mógł
+                            cieszyć się nieskazitelnym wyglądem swojego samochodu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceSix">
+                        <label for="CarFivePriceSix">Mycie detlingowe zewnątrz: 250zł</label>
+                        <div class="content">
+                            Quick-Detailer zaczynamy z mycia felg oraz opon, aby usunąć z nich nagromadzony brud i osady, 
+                            wykorzystujemy do tego środki chemiczne. Po tym etapie dokładnie płuczemy samochód czystą wodą, aby 
+                            pozbyć się resztek szamponu i brudu. Kolejnym krokiem zaczynamy od aplikacji piany aktywnej o neutralnym pH, 
+                            która pomaga usunąć brud i zanieczyszczenia z powierzchni lakieru. Następnie dokładnie myjemy nadkola i wnęki drzwiowe, 
+                            aby pozbyć się brudu i pyłu, który może gromadzić się w tych trudno dostępnych miejscach. Do mycia samochodu wykorzystujemy 
+                            szampon o neutralnym pH oraz specjalną metodę na “dwa wiadra”, co pozwala na dokładne i skuteczne usunięcie brudu, jednocześnie 
+                            minimalizując ryzyko powstawania rys na lakierze. Następnie dokładnie płuczemy pojazd czystą wodą i nanosimy hydrowosk, aby zapewnić
+                            dodatkową ochronę lakieru. Po nałożeniu hydrowosku, dokładnie osuszamy pojazd przy użyciu delikatnych ręczników z mikrofibry i 
+                            sprężonego powietrza, aby zapobiec powstawaniu zacieków i zarysowań. Nie zapominamy również o wnękach drzwiowych i klapy bagażnika, 
+                            które dokładnie osuszamy, aby zapobiec powstawaniu rdzy i korozji. Na koniec podbijamy działanie wosku za pomocą quick-detaileru aplikujemy 
+                            dressing na opony, aby zapewnić im elegancki i lśniący wygląd. Ostatnim etapem jest mycie szyb, aby zapewnić im czystość i klarowność, dzięki 
+                            czemu będziesz miał lepszą widoczność podczas jazdy. W ten sposób zapewniamy kompleksową pielęgnację Twojego samochodu, aby wyglądał on jak 
+                            nowy przez długi czas.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceSeven">
+                        <label for="CarFivePriceSeven">Sprzątanie detalingowe środka: 250zł</label>
+                        <div class="content">
+                            Pierwszym etapem jest dokładne odkurzenie wnętrza, w tym siedzeń, podłogi, deski rozdzielczej i innych trudno dostępnych miejsc, 
+                            aby pozbyć się kurzu, brudu i innych zanieczyszczeń. Następnie przystępujemy do czyszczenia i pielęgnacji plastików wewnętrznych, 
+                            które są narażone na działanie promieni słonecznych i innych czynników zewnętrznych, które mogą powodować ich degradację. Do tego 
+                            celu stosujemy specjalne kosmetyki, które są przeznaczone do czyszczenia i pielęgnacji plastików, aby zapewnić im długotrwałą ochronę i 
+                            piękny wygląd. Kolejnym etapem jest mycie szyb, aby zapewnić im idealną czystość i przejrzystość. Wykorzystujemy specjalne środki czyszczące, 
+                            które pozwalają nam na usunięcie wszelkich zabrudzeń i zmatowień, które mogą wpływać na jakość widoczności podczas jazdy. Na koniec, czyszczymy 
+                            dywaniki gumowe lub materiałowe, które są często narażone na zabrudzenia i zanieczyszczenia z butów.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceEight">
+                        <label for="CarFivePriceEight">Sprzątanie detalingowe Komplekt: 450zł</label>
+                        <div class="content">
+                            Nasza usługa obejmuje szeroki zakres czynności mających na celu dokładne wyczyszczenie Twojego samochodu. 
+                            Korzystamy z aplikacji piany aktywnej o neutralnym pH, która skutecznie usuwa brud i zanieczyszczenia z powierzchni lakieru. 
+                            Dodatkowo, myjemy nadkola i wnęki drzwiowe, felgi oraz dokładnie płuczemy pojazd czystą wodą. Wykorzystujemy szampon o neutralnym pH 
+                            i specjalną metodę na “dwa wiadra”, co gwarantuje skuteczne i bezpieczne mycie Twojego samochodu. Po dokładnym umyciu, płuczemy pojazd 
+                            czystą wodą, a następnie nanosimy hydrowosk, aby zapewnić ochronę lakieru. Przy zastosowaniu delikatnych ręczników z mikrofibry oraz sprężonego 
+                            powietrza, dokładnie osuszamy pojazd i wnęki drzwiowe oraz klapy bagażnika. Następnie aplikujemy dressing na opony oraz odkurzamy wnętrze samochodu, 
+                            dbając jednocześnie o czyszczenie i pielęgnację plastików wewnętrznych przy użyciu dedykowanych kosmetyków. Nie zapominamy również o czyszczeniu szyb 
+                            oraz dywaników gumowych lub materiałowych, aby Twój samochód był czysty i zadbane we wszystkich szczegółach. Nasza usługa oferuje kompleksowe czyszczenie 
+                            Twojego pojazdu, abyś mógł cieszyć się nieskazitelnym wyglądem swojego samochodu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceNine">
+                        <label for="CarFivePriceNine">Dekontaminacja chemiczna: 400zł</label>
+                        <div class="content">
+                            Przygotowanie do dekontaminacji lakieru jest kluczowe dla uzyskania nieskazitelnie czystego i lśniącego lakieru. 
+                            W tym celu przystępujemy do dokładnego mycia samochodu, aby pozbyć się brudu i zanieczyszczeń z powierzchni lakieru. 
+                            Kolejnym krokiem jest usuwanie smoły i asfaltu, które są często obecne na powierzchni lakieru i mogą powodować jego uszkodzenia. 
+                            Do tego celu wykorzystujemy specjalne środki chemiczne, które są skuteczne w usuwaniu tych zanieczyszczeń, a jednocześnie nie uszkadzają lakieru. 
+                            Następnie przystępujemy do usuwania zabrudzeń metalicznych, które są często obecne na powierzchni lakieru w postaci rdzy i innych osadów. 
+                            Do tego celu stosujemy specjalne środki chemiczne, które skutecznie usuwają te zanieczyszczenia i przywracają lakierowi jego pierwotny blask. 
+                            Po wykonaniu dekontaminacji lakieru, przystępujemy do końcowego mycia samochodu, aby dokładnie usunąć pozostałe zanieczyszczenia i pozostawić 
+                            lakier w idealnym stanie. Dzięki naszej usłudze, Twój samochód będzie wyglądał jak nowy, a lakier będzie chroniony przed szkodliwymi czynnikami 
+                            zewnętrznymi przez długi czas.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceTen">
+                        <label for="CarFivePriceTen">Wosk twardy: 400zł</label>
+                        <div class="content">
+                            Nasza usługa “Wosk twardy” to kompleksowe przygotowanie lakieru Twojego samochodu do ochrony przed uszkodzeniami spowodowanymi 
+                            czynnikami zewnętrznymi, takimi jak kamienie, piasek, sól drogowa itp. Nasz proces przygotowania do dekontaminacji lakieru obejmuje kilka etapów, w 
+                            tym mycie samochodu, usuwanie smoły i asfaltu, usuwanie zabrudzeń metalicznych, końcowe mycie samochodu oraz ręczną aplikację wosku twardego. 
+                            W ten sposób Twój samochód zostanie dokładnie oczyścili z wszelkich zabrudzeń, a jego lakier będzie przygotowany do naniesienia wosku.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceEleven">
+                        <label for="CarFivePriceEleven">Powłoka 3 miesięczna: 180zł</label>
+                        <div class="content">
+                            Powłoka zapewnia silny efekt hydrofobowy, które nie tylko odpycha wodę, ale także brud. Dzięki powłoce mycie auta jest dziecinnie proste.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceTwelve">
+                        <label for="CarFivePriceTwelve">Powłoka hydrofobowa na przednią szybę: 150zł</label>
+                        <div class="content">
+                            Nasza usługa “Powłoka hydrofobowa na przednią szybę to innowacyjne rozwiązanie dla Twojego samochodu. 
+                            Dzięki zastosowaniu tej technologii, szyba Twojego pojazdu zostanie pokryte specjalnym preparatem, 
+                            który zapobiega zbieraniu się wody na powierzchni szyby podczas jazdy. Dzięki temu zabiegowi zwiększa 
+                            się widoczność podczas deszczowej pogody, co przyczynia się do poprawy bezpieczeństwa jazdy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceThirteen">
+                        <label for="CarFivePriceThirteen">Powłoka hydrofobowa wszystkich szyb: 300zł</label>
+                        <div class="content">
+                            Nasza usługa “Powłoka hydrofobowa wszystkich szyb” to innowacyjne rozwiązanie dla Twojego samochodu. 
+                            Dzięki zastosowaniu tej technologii, szyby Twojego pojazdu zostaną pokryte specjalnym preparatem, 
+                            który zapobiega zbieraniu się wody na powierzchni szyb podczas jazdy. Dzięki temu zabiegowi zwiększa 
+                            się widoczność podczas deszczowej pogody, co przyczynia się do poprawy bezpieczeństwa jazdy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceFourteen">
+                        <label for="CarFivePriceFourteen">Korekta lakeru One-Step: 800zł</label>
+                        <div class="content">
+                            Nasza usługa “One step” to kompleksowe odświeżenie lakieru Twojego pojazdu. Rozpoczynamy od mycia Premium, 
+                            które obejmuje pełną dekontaminację chemiczną, glinkowanie, domywanie wnęk drzwi. Następnie dokonujemy inspekcji 
+                            lakieru, aby dobrać odpowiedni system polerski, który umożliwi jednoetapowe odświeżenie powierzchni lakieru. 
+                            Proces polerowania lakieru obejmuje dobór odpowiedniej pasty i przeprowadzenie jednoetapowego polerowania. 
+                            Dzięki temu zabiegowi powierzchnia lakieru zostanie odświeżona, a sam lakier nabierze blasku i świeżości. 
+                            Dodatkowo, dokładnie doczyszczamy ranty i wymywamy resztki pasty, aby zapewnić perfekcyjny efekt końcowy.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceFifteen">
+                        <label for="CarFivePriceFifteen">Czyszczenie chromu: od 50zł</label>
+                        <div class="content">
+                            Używamy preparat czyszczący w sprayu. Następnie niewielką ilość wybranego preparatu do czyszczenia chromu nanosimy na miękką szmatkę z 
+                            mikrofibry i wcieramy w wybrany element kolistymi ruchami. Następnie ścieramy nadmiar pasty i polerujemy element, aż do uzyskania pełnego połysku.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceSixteen">
+                        <label for="CarFivePriceSixteen">Usuwanie naklejek autstradowych/rejestracyjnych: 70zł</label>
+                        <div class="content">
+                            Nanosimy specjalistyczny produkt do usuwania kleju na powierzchnię naklejki.Następnie zdrapujemu naklejkę za 
+                            pomocą plastikowego szpachelka.Po usunięciu naklejki i resztek kleju, dokładnie myjemy i wycieramy obszar, aby 
+                            pozbyć się wszelkich śladów pozostałych po naklejce.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceSeventeen">
+                        <label for="CarFivePriceSeventeen">Usuwanie sierści: od 50zł</label>
+                        <div class="content">
+                            Aby usunąć sierść z samochodu, używamy narzędzi takich jak zgrzebło, rękawica, szczotka kauczukowa lub grzebień. 
+                            Każde z tych narzędzi skutecznie usuwa sierść z różnych powierzchni samochodu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceEighteen">
+                        <label for="CarFivePriceEighteen">Kompleksowe pranie tapicerki: 520zł</label>
+                        <div class="content">
+                            Do prania tapicerki możesz wybrać jedną z metod.Metoda ekstrakcji to skuteczna metoda czyszczenia tapicerki samochodowej, 
+                            która polega na wtryskiwaniu specjalnego roztworu czyszczącego do tapicerki i jednoczesnym jego odsysaniu wraz z zabrudzeniami 
+                            za pomocą ekstraktora tapicerki.Metoda czyszczenia tapicerki "na sucho" polega na usuwaniu zabrudzeń z tapicerki bez użycia dużej 
+                            ilości wody lub środków chemicznych. Jest to przydatna metoda, gdy chcesz szybko odświeżyć tapicerkę bez konieczności jej przemaczania.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceNineteen">
+                        <label for="CarFivePriceNineteen">Czyszczenie skór i pielegnacja: 420zł</label>
+                        <div class="content">
+                            Kompleksowe czyszczenie i pielęgnacja skórzanych elementów w samochodzie, takich jak fotele, tapicerka, 
+                            kierownica, drzwi czy deska rozdzielcza. Odkurzanie usuwa zanieczyszczenia, kurz i drobne resztki z powierzchni skóry, 
+                            a następnie specjalne środki czyszczące pozwalają nam na usunięcie trudniejszych plam i zabrudzeń. Ostatecznie, skóra jest 
+                            konserwowana, aby zachować miękkość, elastyczność i oryginalny kolor oraz chronić ją przed przyszłymi uszkodzeniami. 
+                            Impregnacja pomaga wodoodpornie i plamoodpornie chronić skórę przed zanieczyszczeniami i utrzymać jej wygląd przez dłuższy czas. 
+                            Efektem całej usługi jest odnowienie skóry i przywrócenie jej estetycznego wyglądu oraz dłuższe zachowanie jej w dobrym stanie technicznym.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceTwenty">
+                        <label for="CarFivePriceTwenty">Pranie Full-Komplekt: 1200zł</label>
+                        <div class="content">
+                            Usługa Pranie Full-Komplekt to kompleksowe mycie i czyszczenie wnętrza oraz zewnętrznych elementów samochodu. 
+                            Zewnętrzna część samochodu jest dokładnie umyta, a wnętrze jest dokładnie odkurzone, a następnie czyszczone 
+                            przy użyciu techniki tornadorowania, która pozwala na usunięcie nawet trudnych zabrudzeń i plam. Foteli może wymagać 
+                            demontażu, w zależności od modelu samochodu, aby umożliwić dokładne czyszczenie i pranie tkanin. Podłoga, dywaniki i 
+                            bagażnik są również dokładnie umyte i odświeżone. Plastiki i podsufitka są czyszczone, a także poddane bonetowaniu, aby 
+                            pozostały lśniące i odporne na kurz. Pranie foteli pozwala na usunięcie z nich brudu i plam, a także przywrócenie im oryginalnego 
+                            koloru. Szyby są również dokładnie umyte. Po zakończeniu mycia i czyszczenia samochodu, opony są pokryte dressingiem, który dodaje 
+                            połysku i zapobiega starzeniu się gumy, a także lakier jest pokryty quickdetailerem, który dodaje połysku i chroni lakier przed 
+                            zarysowaniami oraz przed zanieczyszczeniami. Wszystkie te czynności pozwolą na odnowienie samochodu i przywrócenie mu świeżości i estetycznego wyglądu.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="CarFivePriceTwentyOne">
+                        <label for="CarFivePriceTwentyOne">Czyszczenie felg(Deironizer): 100zł</label>
+                        <div class="content">
+                            Czyszczenie felg przy użyciu deironizatora jest skutecznym sposobem na usunięcie zanieczyszczeń, takich jak rdza i osady żelaza, 
+                            które gromadzą się na felgach. Deironizer działa poprzez reakcję chemiczną, która rozpuszcza i neutralizuje zanieczyszczenia, ułatwiając ich usunięcie.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">&copy;DailyShine</footer>
+    <!-- JS -->
+    <script src="./PriceWebsite.js"></script>
+</body>
+</html>
