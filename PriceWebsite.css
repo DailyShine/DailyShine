@@ -210,7 +210,7 @@
         transition: max-height  0.5s, padding 0.5s;
     }
     .accordion [type="radio"]:checked + label + .content{
-        max-height: 400px;
+        max-height: 1200px;
         padding: 10px 10px 20px;
     }
     .accordion [type="radio"]:checked + label::before{
@@ -439,7 +439,7 @@
         transition: max-height  0.5s, padding 0.5s;
     }
     .accordion [type="radio"]:checked + label + .content{
-        max-height: 400px;
+        max-height: 1200px;
         padding: 10px 10px 20px;
     }
     .accordion [type="radio"]:checked + label::before{
@@ -592,7 +592,7 @@
         transition: max-height  0.5s, padding 0.5s;
     }
     .accordion [type="radio"]:checked + label + .content{
-        max-height: 400px;
+        max-height: 1200px;
         padding: 10px 10px 20px;
     }
     .accordion [type="radio"]:checked + label::before{
