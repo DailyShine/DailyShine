@@ -152,6 +152,7 @@ html {
         margin-top: 10px;
         text-decoration: none;
         color: black;
+        background: white;
     }
     .OurProjects-Text h1{
         text-align: center;
@@ -244,6 +245,7 @@ html {
         margin-bottom: 5%;
         text-decoration: none;
         color: black;
+        background: white;
     }
     @keyframes fade {
       from {opacity: .4} 
