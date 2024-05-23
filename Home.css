@@ -150,6 +150,8 @@ html {
         justify-content: center;
         align-items: center;
         margin-top: 10px;
+        text-decoration: none;
+        color: black;
     }
     .OurProjects-Text h1{
         text-align: center;
@@ -179,7 +181,7 @@ html {
         width: 50%;
     }
     .Contact{
-        height: 100vh;
+        height: 130vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -240,6 +242,8 @@ html {
         border-radius: 10px;
         border: 2px solid black;
         margin-bottom: 5%;
+        text-decoration: none;
+        color: black;
     }
     @keyframes fade {
       from {opacity: .4} 
