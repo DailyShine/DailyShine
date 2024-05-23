@@ -135,6 +135,9 @@ html {
         border-radius: 20px;
         border: 2px solid black;
         cursor: pointer;
+        text-decoration: none;
+        color: black;
+        background: white;
     }
     .options button:hover{
         background: #E2E8F0;
@@ -204,6 +207,8 @@ html {
         margin: 10px;
         cursor: pointer;
         background: white;
+        text-decoration: none;
+        color: black;
     }
 }
 @media screen and (min-width: 751px) {
