@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Home.css">
+    <title>Strona główna - DailyShine</title>
+</head>
+<body>
+    <div class="image">
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">DailyShine.</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="./Services.html" class="nav-link">Oferta</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./Prices.html" class="nav-link">Cennik</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#OurProjects" class="nav-link">Nasze realizacje</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Contact" class="nav-link">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://g.page/r/CUC7AxOVORLNEB0/review" class="nav-link">Oceń nas</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <section class="Home">
+        <h1>Daily Shine</h1>
+        <hr>
+        <p>Jeśli szukasz kompleksowej pielęgnacji dla swojego samochodu, to z pewnością warto skorzystać z naszych usług.
+            W Daily Shine oferujemy szeroki wachlarz usług, które pozwolą Ci odkryć zupełnie nowy poziom lśnienia dla Twojego pojazdu.
+            Dzięki naszym specjalistycznym zabiegom pielęgnacyjnym, Twój samochód zawsze będzie prezentował się jak nowy,
+            a Ty zyskasz poczucie pewności i zadowolenia z jego wyglądu.Zadbaj o swój samochód,a on zadba o ciebie.</p>
+    </section>
+    </div>
+    <section id="OurProjects" class="OurProjects">
+        <div class="slideshow-container">
+            <div class="OurProjects-Text">
+                <h1>Nasze realizacje</h1>
+            </div>
+            <div class="mySlides fade">
+              <img src="438204078_1086376152651125_1515612446538003472_n.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="441959932_325197973933345_1782097971370901809_n.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="436789057_419814104234176_2347560611903627799_n.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="441958649_460167783176612_1521488289580597455_n.jpg" style="width:100%">
+              </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            <div class="OurProjects-Button">
+                <button onclick="location.href='https://www.facebook.com/profile.php?id=61558784101058';">Zobacz więcej!</button>
+            </div>
+            </div>
+    </section>
+    <section id="Contact" class="Contact">
+        <h1>DailyShine</h1>
+        <p>ul.Sublańska 83</p>
+        <p class="ContactP">43-100 Tychy</p>
+        <hr>
+        <h1>Godziny Otwarcia</h1>
+        <p>Poniedziałek-Sobota</p>
+        <p class="ContactP">8:00-18:00</p>
+        <hr>
+        <h1>Kontakt</h1>
+        <p><a href="tel:+48794566787">+48 794 566 787</a></p>
+        <p class="ContactP"><a href="https://www.facebook.com/profile.php?id=61558784101058">Facebook</a></p>
+        <div class="Contact-Form">
+            <form action="#">
+                <h1>Napisz do nas!</h1>
+                <div class="input-box">
+                    <div class="input-field field">
+                        <input type="text" placeholder="Imie i Nazwisko" id="name" class="item" autocomplete="off">
+                        <div class="error-txt">Musisz wprowadzić swoje imie i nazwisko.</div>
+                    </div>
+                    <div class="input-field field">
+                        <input type="text" placeholder="Adres mail" id="email" class="item" autocomplete="off">
+                        <div class="error-txt email">Musisz wprowadzić swój mail.</div>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="input-field field">
+                        <input type="text" placeholder="Numer telefonu" id="phone" class="item" autocomplete="off">
+                        <div class="error-txt">Musisz wprowadzić swój numer telefonu.</div>
+                    </div>
+                    <div class="input-field field">
+                        <input type="text" placeholder="Temat" id="subject" class="item" autocomplete="off">
+                        <div class="error-txt">Musisz wprowadzić temat.</div>
+                    </div>
+                </div>
+                <div class="textarea-field field">
+                    <textarea name="" id="message" cols="30" rows="10" placeholder="Wiadomość" class="item" autocomplete="off"></textarea>
+                    <div class="error-txt">Pole nie może być puste.</div>
+                </div>
+                <button type="submit">Wyślij</button>
+            </form>
+        </div>
+    </section>
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./Home.js"></script>
+</body>
+</html>

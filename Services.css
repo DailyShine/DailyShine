@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+@media only screen and (max-width: 750px) {
+    li {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    
+    .header{
+        border-bottom: 1px solid #E2E8F0;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+    
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
+    }
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-item {
+        margin-left: 5rem;
+    }
+    
+    .nav-link{
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: black;
+    }
+    
+    .nav-logo {
+        font-size: 2.1rem;
+        font-weight: 500;
+        color: black;
+    }
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .Main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(440010765_122100947888292803_539509957961761758_n.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+    .Main{
+        font-size: 25px;
+        color: white;
+    }
+    .mainBlock{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+    .mainBlock h1{
+        font-size: 30px;
+    }
+    .Two , .Three{
+        display: none;
+    }
+    .One, .Four{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 60%;
+    }
+    .block{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5%;
+    }
+    .One h1, .Four h1{
+        font-size: 25px;
+        padding-bottom: 3%;
+    }
+}
+@media screen and (min-width: 751px) {
+    li {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+    
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
+    }
+    
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-item {
+        margin-left: 5rem;
+    }
+    
+    .nav-link{
+        font-size: 1.6rem;
+        font-weight: 400;
+        color:  white;
+    }
+    
+    .nav-logo {
+        font-size: 2.1rem;
+        font-weight: 500;
+        color: white;
+    }
+    .Main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+    .Main h1{
+        font-size: 50px;
+        color: white;
+    }
+    .One , .Two , .Three , .Four{
+        width: 50%;
+    }
+    .block{
+        display: flex;
+        flex-direction: row;
+        height: 50vh;
+    }
+    .image{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(440010765_122100947888292803_539509957961761758_n.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+    .One , .Four{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .One p , .Four p{
+        width: 70%;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    .One h1, .Four h1{
+        font-size: 30px;
+        padding-bottom: 1%;
+    }
+    .mainBlock{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .mainBlock p{
+        font-size: 10px;
+    }
+    .mainBlock h1{
+        font-size: 40px;
+    }
+    #One{
+        background-image: url(ServiceBlockTwo.webp);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+    }
+    #Two{
+        background-image: url(ServiceBlockThree.webp);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+    }
+    #Three{
+        background-image: url(unnamed.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    #Four{
+        background-image: url(441958649_460167783176612_1521488289580597455_n.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    #Five{
+        background-image: url(441923959_374476448392875_7221322731255237468_n.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media only screen and (min-width: 1600px) {
+    .One p , .Four p {font-size: 15px; width: 50%;}
+  }
+@media screen and (min-width: 1100px) {
+    .mainBlock p{font-size: 13px;}
+}
