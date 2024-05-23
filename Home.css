@@ -144,6 +144,9 @@ html {
         border: 2px solid black;
         background: #bbb;
         font-weight: bold;
+        text-decoration: none;
+        color: black;
+        background: white;
     }
     .OurProjects-Button{
         display: flex;
