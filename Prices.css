@@ -162,6 +162,7 @@ html {
         width: 100%;
         border: none;
         text-align: left;
+        color: black;
         outline: none;
         font-size: 12px;
         display: flex;
@@ -181,6 +182,7 @@ html {
         background-color: white;
         padding: 0 18px;
         font-size: 13px
+        color: black;
     }
     
     .accordion-content p {
@@ -252,13 +254,13 @@ html {
     }
     
     .nav-link{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         font-weight: 400;
         color: white;
     }
     
     .nav-logo {
-        font-size: 2.1rem;
+        font-size: 2.3rem;
         font-weight: 500;
         color: white;
     }
@@ -337,6 +339,7 @@ html {
         border: none;
         text-align: left;
         outline: none;
+        color: black;
         font-size: 15px;
         display: flex;
         justify-content: space-between;
@@ -354,6 +357,7 @@ html {
         transition: max-height 0.3s ease;
         background-color: white;
         padding: 0 18px;
+        color: black;
         font-size: 13px
     }
     
