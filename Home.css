@@ -41,7 +41,7 @@ html {
     .image{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(440249194_122100008474292803_6224810076857871036_n.jpg);
         background-position: center;
-        background-size: auto;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     .navbar {
