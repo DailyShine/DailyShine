@@ -140,3 +140,6 @@ $('a[href^="#"]').on('click', function(event) {
     }
 });
 });
+document.getElementById('phone-link').addEventListener('click', function() {
+  alert('Przekierowanie do aplikacji telefonu...');
+});

@@ -33,7 +33,7 @@ html {
     .hamburger {
         display: none;
     }
-    
+
     .bar {
         display: block;
         width: 25px;
@@ -225,4 +225,30 @@ th, td {
 }
 .large{
     font-size: 20px
+}
+#phone-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    z-index: 1000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#phone-widget:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+#phone-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }

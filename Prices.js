@@ -15,6 +15,10 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
+document.getElementById('phone-link').addEventListener('click', function() {
+    alert('Przekierowanie do aplikacji telefonu...');
+});
+
 
 function showDescription(car) {
     var descriptions = document.querySelectorAll('.description');

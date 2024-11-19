@@ -14,3 +14,7 @@ function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
+document.getElementById('phone-link').addEventListener('click', function() {
+    alert('Przekierowanie do aplikacji telefonu...');
+});
+
